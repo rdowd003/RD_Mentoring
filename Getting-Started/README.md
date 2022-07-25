@@ -9,19 +9,25 @@
 # 1. Computer Set Up
 The following items incude those that should be considered when setting up your computer for data science. For most items, there is (will be) a linked guide that can be found under the "Resoruces > Guides " directory in this repository.The items include:
 
-    1a. Applications to Download/Install
-        - VisualCode (or preferred editor)
+    1a. Applications to Download/Install - You may choose your preferred editor, but VSCode is the tool I and many software developers use. Others include Spyder, PyCharm, etc You may also wish to install GitHub Desktop, or any other tools of choice for more convenient workflows. 
+        - VSCode (or preferred editor)
         - Github Desktop
 
-    1b. Environment set up (TO DO: create how-to guides and link them here)
+    1b. Environment set up - The follow list includes required or optional installs for data science in general as wellas completion of this mentorship. You will be required to use python 3.X, preferably ≥ python 3.6X. Python can be installed via Anaconda (recommended for beginners and learners), or through homebrew. MacOS can hold more than 1 installation of python, while on Windows, python must be upgraded when desired. The list of essential packages to install should be intalled right away, if not existent. To check if they are installed, try:
+    ``bash
+    pip3 freeze
+    ```
+
+    Note: Virtual environments (using Virtualenv or recommended pyenv) is highly recommended, but not required. See Guides directory for how to setup a virtual environment for a project. 
+
     - Installing python
         - Anaconda (recommended beginner set up)
         - Homebrew / Python Releases Site
     - Python Maintainence
         - Mac vs Windows
-        - VirtualEnv
+        - VirtualEnvAnaconda
         - Installing with PIP
-    - Essential Package Installs (PIP)
+    - Essential Package Installs (PIP) - Must install
         - Numpy
         - Pandas
         - SKLearn
