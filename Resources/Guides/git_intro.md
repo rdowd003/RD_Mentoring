@@ -1,6 +1,18 @@
-# Intro to Git and GitHub
+# Table of Contents - Interacting With Git
 
-## Background 
+## 1. Introduction
+- Background
+- Cloning & Forking
+- Using a repo locally
+- Interacting with remotes
+
+## 2. Typical Workflow
+- Personal repository
+- Shared Repositories
+
+# 1. Intro to Git and GitHub
+
+## A. Background 
 
 GitHub is one of the most popular tools for people to develop software collaboratively via the Internet. At the heart of GitHub is Git, a distributed version control system for software development. It allows us to keep track of and manage all of the different versions of our files for a project. It does this by keeping a history of all of the changes that we make to our files. When used correctly, Git also works as a backup of our files: it allows us to keep a backup copy of our work on GitHub, and it allows us to roll back any of our files to any previous version that we have *committed* to the repo.
 
@@ -22,7 +34,7 @@ repository's directory on disk (so long as those files have been added to the in
 
 At Galvanize, you can expect to use the second method exclusively: *cloning* a repository from GitHub. So, if you're starting a new project, don't try to initialize it locally. The best workflow is to create an empty repo on GitHub first, then clone the GitHub repo to your computer to start your work.
 
-#### Cloning a Git Repo
+## B1. Cloning
 
 The process of copying a Git repo from GitHub to your computer is called *cloning*. To clone a repository, we simply issue the `git clone` command followed by a URL.
 
@@ -37,8 +49,18 @@ Of course, you need to fill in the actual values above:
 
 The URL that you copy an existing repository from will almost always be the URL of somebody's repo on GitHub (or your own repo on GitHub). Directions for how to create your own repository on GitHub (that you then clone to your local machine) can be found here: [https://help.github.com/articles/create-a-repo/](https://help.github.com/articles/create-a-repo/)
 
+## B2. Forking
 
-#### Interacting with a Git Repository
+*Forking* is kind of like *cloning*, but there are two important distinctions: 
+
+* *Forking* occurs only on GitHub, and is specific to GitHub (i.e. you can't 
+*fork* on your local machine - it's not an option). 
+* *Forking* creates your own personalized copy of the repo on your GitHub account. Now, if you would like to make changes, you would clone your forked repository. Even if you don't have write access to the original repo, you can push new commits directly to your *fork* of the original repo.
+* A *pull request* is a request *by you* for the owner of a repo to *pull* changes from your fork of that repo (and incorporate them into the original). Pull requests are useful for open-source projects, where anyone can propose changes and contribute code, but these proposed changes need to be reviewed and approved by the project owners before they get merged into the original project.
+
+
+
+## C. Interacting with a Git Repository
 
 Now that we have a Git repository, we can start working in that repository 
 (directory), and have Git keep track of the changes that we are making to 
@@ -67,7 +89,7 @@ If you see something in *red* in `git status`, think of this as seeing "blood" o
 Remember, *A.B.C.*: Always Be Committing.
 
 
-### Working with a Cloned Repository 
+## D. Working with a Cloned Repository 
 
 Now that we know how to clone a repository, it's time to talk about pushing
 and pulling, the process by which we keep a remote copy of our repository (on GitHub) 
@@ -103,11 +125,11 @@ git pull  # Update the local repo on your computer with new commits from the rem
 
 Note that `git push` is normally short for `git push origin master` (push to the `master` branch on the remote called `origin`) and, similarly, `git pull` is short for `git pull origin master`.
 
-### Forking
 
-*Forking* is kind of like *cloning*, but there are two important distinctions: 
+# 2. Typical Git Workflow
 
-* *Forking* occurs only on GitHub, and is specific to GitHub (i.e. you can't 
-*fork* on your local machine - it's not an option). 
-* *Forking* creates your own personalized copy of the repo on your GitHub account. Now, if you would like to make changes, you would clone your forked repository. Even if you don't have write access to the original repo, you can push new commits directly to your *fork* of the original repo.
-* A *pull request* is a request *by you* for the owner of a repo to *pull* changes from your fork of that repo (and incorporate them into the original). Pull requests are useful for open-source projects, where anyone can propose changes and contribute code, but these proposed changes need to be reviewed and approved by the project owners before they get merged into the original project.
+## A. Personal Repositories
+
+## B1. Shared Repositories - Collaborative
+
+## B2. Shared Repositories - Forks
