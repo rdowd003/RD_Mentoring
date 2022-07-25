@@ -104,7 +104,7 @@ rm `test_git_file.txt`
 27. Repeat step 8, adding a new file title "week1_article_summary.txt"
 28. Repeat steps 9-15 to push this new file into the repository on the branch with your name. This file will stay there. 
 
-## Preparing to submit a pull request "8 Always do this before submitting a pull request"
+## Preparing to submit a pull request *Always do this before submitting a pull request*
 29. Fetch upstream master and merge with your repo's master branch
 ```bash
 git fetch rd_upstream
@@ -119,4 +119,4 @@ git rebase master
 ```
 
 ## Submit a Pull Request to the original
-29. Go to Github & follow [this documentation](https://gist.github.com/Chaser324/ce0505fbed06b947d962) for submitting a pull request
+31. Go to Github & follow [this documentation](https://gist.github.com/Chaser324/ce0505fbed06b947d962) for submitting a pull request
