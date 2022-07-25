@@ -1,12 +1,12 @@
 # WEEK 1 - Baseline Skills Assessment
 
 
-Welcome to your first assessment!  This assessment will be used to gauge your strengths and weaknesses at the start so you can be provided with a better learning experience throughout mentorship.
+Welcome to skills assessment!  This assessment will be used to gauge your strengths and weaknesses at the start so you can be provided with a better learning experience throughout mentorship.
 
-This assessment has **two parts**: a coding part (`assessment.py`) and a math/concept part (`concepts.txt`). Once you complete the entire assessment, you will submit a pull request so that your work can be assessed. The questions for each topic section some questions are easy, some will be more challenging. That said, it is okay if you are unable to answer queston or are sure about your responses. You should refrain from relying entirely on external resources like books & notes, as much as possible so that it is an accurate assessment of the current state of your data science skills and knowledge.
+This assessment has **three parts**: a coding part (`assessment.py`) and a math/concept part (`concepts.txt`). Once you complete the entire assessment, you will submit a pull request so that your work can be assessed. The questions for each topic section some questions are easy, some will be more challenging. That said, it is okay if you are unable to answer queston or are sure about your responses. You should refrain from relying entirely on external resources like books & notes, as much as possible so that it is an accurate assessment of the current state of your data science skills and knowledge.
 
 
-### Python
+### 1A. Python
 Take this assessment using  **Python 3**.  To check which version of Python is installed natively, type `python --version` in the terminal. 
 
 If you're running Anaconda's distribution of Python 2 natively and haven't made this environment before, it's easy to do though the download takes a few minutes.  In terminal type:
@@ -16,7 +16,7 @@ $ conda create -n py3 python=3 anaconda
 Only create the Python 3 environment if you **don't** have Python 3 installed.  Please ask for help if any of this is confusing or you're not sure.  
 
 
-### SQL
+### 1B. SQL
 The second part of the coding section asks for SQL queries on the markets SQL database.  The SQL queries that you will submit should be returned as python *strings* in the relevant functions in `assessment.py`.  However you may wish (it is not required) to test your queries in sqlite3 or postgreSQL first.
 
 The databases (`markets.sqlite` for sqlite3, and `markets.sql` for postgreSQL) are located in the `data` directory. 
@@ -70,8 +70,13 @@ Now you can try your queries.
 
 Once again, testing these queries in sqlite3 or postgreSQL is *optional*.  These SQL instructions are provided for your convenience.
 
-### Concepts
-The last part of this assssment will be in a text file title "concepts.txt". You will write your responses out underneath each question. Please be as thorough as possible where necessary, and refrain from relying on the internet/books to answer these questions. It is okay if you do not know the answers, this provides us with a good understanding of where any skill & knowledge gaps are. 
+### 2. Concepts
+The second part of this assssment will be in a text file title "concepts.txt". You will write your responses out underneath each question. Please be as thorough as possible where necessary, and refrain from relying on the internet/books to answer these questions. It is okay if you do not know the answers, this provides us with a good understanding of where any skill & knowledge gaps are. 
+
+### 3. Case Study
+The last part of this assessment will be a case study. You will be given some data, a prompt, and asked to respond to questions
+and submit a *jupyter notebook* (added to src/) with your work.
+*
 
 ________________________________________________________________________________________________________________________
 # The Assessment

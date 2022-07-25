@@ -54,11 +54,73 @@ The items below include either workflows, skills or knwowledge sets that you wil
 
 
 # 4. Unique to You
-    - Overview
-    - Timeline
-    - Your Git Workflow
-    - Expectaions
+Details specific to this mentee-mentor period
 
+## Overview
+During this mentorship, we will be foucsing on:
+    1. Review of Data Science concepts
+    2. Testing your ability to implement DS concepts
+    3. Refining your programming quality
+    4. Improving your understanding of the DS life cycle in a professional setting
+    5. Preparing you for the job hunt!
+
+## Timeline
+This mentorhsip will ideally last 2-3 months. As you have stated that obtaining a job is your number one priority, the goal is to have you ready for the job hunt nearing the end of the mentorhsip, and hopefully finding employment soon after. That said, below is our tentative timeline plan for this mentorhsip, lasting 9+ weeks
+
+Week 1: 
+- Review all onboarding materials 
+- Skills assessment
+- Review gaps in DS concepts/knowledge/skills
+
+Week 2:
+- EDA Project
+- Test-set1
+- Finish reviewing concepts
+
+Week 3-5:
+- Exhaustive Modeling Project
+- Test-sets 2-4
+
+Week 6-6:
+- Recommendation Engine Project
+- Test-set 5-6
+
+Week 8+
+- Interview Preparation
+- Final Test-set
+
+Weekly:
+- Review articles - focusing on data science in production and in professional settings
+- Continue to review DS concepts
+- Progress updates (conversational)
+
+## Expectaions
+
+### Overall
+1. You will stay committed to the mentorship, and complete all work
+2. I am happy to amend the plan based on your needs as we move along, but you have to (1) be honest with yourself, and (2) be honest with me about where you are at
+3. After employment is obtained, there will be a collection over 12 months of 4% of your starting salary (agreed to in SharpestMinds contract) 
+4. Open door! Let me know how you're feeling, what you need and how we can best work together!
+
+### Git Workflow
+For this mentorship, you will be forking this repository, and working off of the branch: *"coreyholt"*. Your forked version of this repository will allow you to have a copy within your own github account, as well as having an opportunity to practice standard procedure for collaborative data science work (with me). That said, you will be developing entirely on the aforementioned branch & therefore have freedom to push & pull from your forked repository as yuo wish. Periodically, I will be asking you to submit pull requests to the original repository (owned by me), requiring my (rdowd003) as a required reviewer, so that I will be able to see your work. 
+
+### Projects
+For this mentorship, I have planned 3 projects for you to complete. They will cover: exploratory analyses & feature engineering, modeling & ML., and recommendation systems & data tooling. Each of these topics were chosen because comfort with each is *absolutely essential* to landing a data science job. For each project, you will add a new subdirectory under the projects directory, with a README.md file in each, providing a brief overview & summary (once completed) of the project, for other to see. As you are inteerested in developing your skills as a data story teller and feeling more comfortable collating & presenting your results, **you will complete a slide deck** erviewing results for each project. We can go over this together once complete for feedback. 
+
+Some projects will vary, but in general, you will be submitting a directory with: 
+- src/ - directory with python files and/or jupyter notebooks - EDA, modeling, hyperparameter tuning, explorations, etc
+- data/ - directory with any data you utilized
+- results/ - directory with slide deck (pdf file) of results & any data/ output  
+
+
+### Weekly Work
+An important part to being a successful data scientist is continuously reviewing, learning & exploring. There are far too many concepts to encompass in a 2-3 month mentorhsip, and so it will be on you to stay on top of your progress & gaps, with a little help from me. Each will you will do some work to help build a better knowledge base of the data science life cycle & technical capabilities outside of the basics. Each week you will do the following:
+
+- Review article (sent by me, or something you find). Add summmary to article directory
+- Complete test-set (keeping you up to date on python, sql skills & concepts)
+- Complete code & test-set reviews with me
+- Provide me with progress updates on where you feel like you need more help. 
 
 # 3. Getting Started Resources
 - [New computer set up (windows)](https://medium.com/data-science-nerd/how-to-set-up-your-new-computer-for-data-science-projects-with-python-192af506e226)
