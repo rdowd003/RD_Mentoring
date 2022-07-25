@@ -10,6 +10,8 @@
 - Personal repository
 - Shared Repositories
 
+## 3. Resources
+
 # 1. Intro to Git and GitHub
 
 ## A. Background 
@@ -32,7 +34,6 @@ repository's directory on disk (so long as those files have been added to the in
 * Initializing an empty, new local repository (*not* recommended)
 * *Cloning* a repository from GitHub (highly recommended)
 
-At Galvanize, you can expect to use the second method exclusively: *cloning* a repository from GitHub. So, if you're starting a new project, don't try to initialize it locally. The best workflow is to create an empty repo on GitHub first, then clone the GitHub repo to your computer to start your work.
 
 ## B1. Cloning
 
@@ -58,9 +59,10 @@ The URL that you copy an existing repository from will almost always be the URL 
 * *Forking* creates your own personalized copy of the repo on your GitHub account. Now, if you would like to make changes, you would clone your forked repository. Even if you don't have write access to the original repo, you can push new commits directly to your *fork* of the original repo.
 * A *pull request* is a request *by you* for the owner of a repo to *pull* changes from your fork of that repo (and incorporate them into the original). Pull requests are useful for open-source projects, where anyone can propose changes and contribute code, but these proposed changes need to be reviewed and approved by the project owners before they get merged into the original project.
 
+You will be asked to fork *this* repository, and submit pull requests when you have changes you are ready to submit. This will help you become more familiar with the workflows commonly used in a collaborative environment on a data science team. The only caveat is that you will only be submitting pull requests for changes to a specific *branch* set up for you. See below for explanation of what a branch is!
 
 
-## C. Interacting with a Git Repository
+## D. Interacting with a Git Repository
 
 Now that we have a Git repository, we can start working in that repository 
 (directory), and have Git keep track of the changes that we are making to 
@@ -87,6 +89,9 @@ I've mentioned the *index* above, and while understanding it isn't necessary, it
 If you see something in *red* in `git status`, think of this as seeing "blood" on your repo. The goal is to fix it immediately. You do this by *adding* and *committing* your changes. It does NOT matter whether your code is working or "finished" because you can always commit additional changes later! Commit early and often to your repo.
 
 Remember, *A.B.C.*: Always Be Committing.
+
+### Branching
+Branches can be thought of as "versions" of the git repository. The default branch that is intiated with the repository is referred to as *master* or *main*. These branch names refer to the original version, and are often reserved as the ground-truth, clean, best-versions of the repository. That said, developers can "check-out" (either create or literally check-out an existing one, like a library book) and develop on this branch. This provides a developer with a safe space to work on teh code, add his/her own work, and then safely "merge" it back into the *master* branch. In some cases, branches can be merged into automatically, and sometimes they will require a pull request, as with this repository. See the "Resources / Guides / " directory for a more in-depth view of this workflow and how we will use it. 
 
 
 ## D. Working with a Cloned Repository 
@@ -130,6 +135,46 @@ Note that `git push` is normally short for `git push origin master` (push to the
 
 ## A. Personal Repositories
 
+When developing in a personal repository, there is not always a need to create & develop on branches. If it is an important prokect, it is likely still worth it to preserve the good code while working on something new, before adding back into the original *master* branch. But consequently, you have free reign. 
+
 ## B1. Shared Repositories - Collaborative
 
+When working on a shared rerpository, it is absolutely essential to be aware of (1) what other work is being done at the same time, and (2) what works before you merge. Shared repositories where your contributions are welcome are most likely what you'll come to find is the case in most data science teams. For this reason, There are some best practices & commonwokflows you can follow to ensure that everyone's work is protected. Let's say you are joining a team with an existting repository and they have added you as a collaborator, ad you are setting up your laptop at the start. You should:
+
+1. Go to github, and click "Clone" to get the copy-link
+2. Navigate to your local file system > Documents and create a new folder titled "Repositories"
+3. Using your terminal, change directories into this new "Repository" directory
+4. In the terminal, clone the repository:
+```bash 
+git clone https://github.com/$USERNAME/$REPO_NAME
+```
+5. Check to see if there are ay recent changes pushed by one of your teammates. In the terminal:
+```bash 
+git pull origin master
+```
+6. Create a new branch, for your development work
+```bash 
+git checkout -b <branch_name> # if a branch does not exist with this name, one will be created
+```
+7. Make a change (add a file, modify a file, etc)
+8. Check to see that git has tracked your change:
+```bash 
+git status # Output should be either under "modified:" or "Untracked new files:", with the changeed/added file name afterwards
+```
+9. Stage your change
+```bash 
+git add filename_with_change.py
+```
+10. Commit the change to the *branch*, NOT *master*
+```bash 
+git push -u origin <branch_name>
+```
+11. Go to Github & submit a pull-request for your branch 
+
+
 ## B2. Shared Repositories - Forks
+Forked repositories are similar to branches, except it's a duplicate that gets added to the account of the person who did the forking. As mentioned above, this can only be done on Github UI. That said, when you select a repository to fork, a copy of the repository will be added to your account, and you are even welcome to rename it. You are also welcome to make new branches, and make any changes that you want to *this* version of the repository. There are 2 things you'll want to keep in mind. (1) You will have to remember to update your version continuously if there are new files/changes to the original repository that are important for your work. And (2) your (forked) version *can* in fact be merged back into the original repository, through a pull request. This is the process we will follow; refer to the git_workflow.md file in the "Getting-Started" directory. 
+
+
+# 3. Resources
+There are many compelxities involved in working with collaborators in the Git/Github environment. You will continuously learn new commands like "reset", "rebase", and more. Trouble shooting issues with git can commonly be done by google-searcing for threads & documentation. A go-to site for help is "Stack Overflow", as well as the [github documentation](https://docs.github.com/en) itself. 
