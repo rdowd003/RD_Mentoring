@@ -155,7 +155,7 @@ There are 40 problems & a short data challenge (case study) total in the assessm
     - 3 python statistics
     - 5 numpy/pandas/matplotlib
     - 5 sql fluency
-- 25 math & conceptual questions in `concepts/concepts.txt`: 
+- 30 math & conceptual questions in `concepts/concepts.txt`: 
     - 10 math, Statistics & probability
     - 10 machine learning & algorithms
     - 5 data tooling

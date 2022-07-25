@@ -128,6 +128,7 @@ An important part to being a successful data scientist is continuously reviewing
 - [Python releases (for mac)](https://www.python.org/downloads/macos/)
 - [How to guides](https://github.com/rdowd003/RD_Mentoring/tree/main/Resources/Guides)
 - [CheatSheets](https://github.com/rdowd003/RD_Mentoring/tree/main/Resources/Guides)
+- [Machine learning & data science concepts with python](https://machinelearningmastery.com/)
 
 
 
