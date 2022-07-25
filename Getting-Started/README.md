@@ -29,11 +29,13 @@ The following items incude those that should be considered when setting up your 
         - Matplotlib
         - Seaborn
         - Jupyter
+        - Pytest
     - Optional Packages to install
         - Keras / Pytorch / Tensorflow
         - Scrapy / BeautifulSoup
         - Dask
         - tqdm
+
 
 # 2. Need To Knows
 The items below include either workflows, skills or knwowledge sets that you will need to be comfortable with during mentorship. It is okay if you are not completely fluent at the start, but if that is the case, review should be done very early to catch up and get the most out of mentorship. The items include:
