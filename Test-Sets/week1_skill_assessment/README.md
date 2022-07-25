@@ -21,6 +21,49 @@ The second part of the coding section asks for SQL queries on the markets SQL da
 
 The databases (`markets.sqlite` for sqlite3, and `markets.sql` for postgreSQL) are located in the `data` directory. 
 
+Databse tables:
+- "statepopulations", with columns:
+    state text,
+    pop2010 integer,
+    pop2000 integer
+    
+- "farmersmarkets", with columns:
+    fmid integer,
+    marketname text,
+    website text,
+    street text,
+    city text,
+    county text,
+    state text,
+    zip text,
+    x real,
+    y real,
+    credit text,
+    wic text,
+    wiccash text,
+    sfmnp text,
+    snap text,
+    bakedgoods text,
+    cheese text,
+    crafts text,
+    flowers text,
+    eggs text,
+    seafood text,
+    herbs text,
+    vegetable text,
+    honey text,
+    jams text,
+    maple text,
+    meat text,
+    nursery text,
+    nuts text,
+    plants text,
+    poulty text,
+    prepared text,
+    soap text,
+    trees text,
+    wine text
+
 
 #### If you want to use sqlite3 (easiest)
 Navigate to the `week1_skill_assessment/data` directory in terminal.  
@@ -29,6 +72,7 @@ At the terminal, type:
 $ sqlite3 markets.sqlite
 ```
 Now you can try your queries (using standard sql).
+
 
 #### If you want to use postgreSQL
 Navigate to the `week1_skill_assessment/data` directory in terminal.
@@ -83,7 +127,7 @@ ________________________________________________________________________________
 
 The repository has the following folder structure:
 
-    assessment-day1
+    week1_skills_assessment
     ├── Makefile
     ├── README.md
     ├── src
@@ -97,9 +141,14 @@ The repository has the following folder structure:
     │   ├── __init__.py
     │   └── test_assessment.py
     └── concepts
-        └── concepts.txt
+    │   └── concepts.txt
+    └── case_study
+        └── case_study_data_challenge.ipynb
+        └── data/
+            └── user_account_data.csv
+            └── user_exercise_logs_data.csv
 
-There are 40 problems total in the assessment.  All the problems are worth the same number of points (3 pts).  
+There are 40 problems & a short data challenge (case study) total in the assessment.  All the problems should be completed or attempted, if possible.   
 - 20 coding questions in `src/assessment.py`: 
     - 5 python fluency
     - 2 python challenge

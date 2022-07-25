@@ -62,10 +62,31 @@ def word_count(filename):
 
 
 # ---------------------------------------------------------------------------------------------------------
-# Python Challenge  ++ 2 more
+# Python Challenge
 # ---------------------------------------------------------------------------------------------------------
 
-## Something like code wars
+
+# Medium hard
+
+
+
+# Very challenging (it's okay if you do not get this. Hint, it is not a one-liner)
+
+def num_to_word_string(n):
+    '''
+    INPUT: INTEGER
+    OUTPUT: STRING 
+
+    The INPUT is aninteger of ANY size.
+    The OUTPUT is a string version of the word in English.
+    For example:
+        - INPUT = 1,342
+        - OUTPUT: One thousand three hundred and forty two"
+    Note: Do not worry about punctuation & capitalization
+    '''
+
+    pass
+    # Insert code here   
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -93,7 +114,7 @@ def cookie_jar(a, b):
 
 
 # ---------------------------------------------------------------------------------------------------------
-# Pandas, NumPy & MatplotLib ++ 3 more
+# Pandas, NumPy & MatplotLib
 # ---------------------------------------------------------------------------------------------------------
 
 
@@ -118,14 +139,38 @@ def array_work(rows, cols, scalar, matrixA):
 
 
 
-## make this way harder
-def data_frame_work(df, colA, colB, colC):
+def data_frame_easy(df, colA, colB, colC):
     '''
     INPUT: DATAFRAME, STR, STR, STR
     OUTPUT: None
 
     Insert a column (colC) into the dataframe that is the sum of colA and colB.
     Assume that df contains columns colA and colB and that these are numeric.
+    '''
+    pass
+    # Insert code here
+
+
+def data_frame_med(df, colA, win, min_val):
+    '''
+    INPUT: DATAFRAME, STR, STR, STR
+    OUTPUT: None
+
+    Insert a column (colB) into the dataframe that computes a rolling sum on
+    colA, with a window size (win) and a minimum (min_val) number of
+    values in the window required to compute the rolling sum
+    '''
+    pass
+    # Insert code here
+
+
+def data_frame_hard(df, colA, colB, function_x):
+    '''
+    INPUT: DATAFRAME, STR, STR, STR
+    OUTPUT: None
+
+    Insert a column (colC) into the dataframe that maps function_x, which takes
+    colA & colB as input.
     '''
     pass
     # Insert code here
@@ -166,6 +211,17 @@ def markets_per_state():
     '''
     Return a SQL statement which gives the states and a count of the number of
     markets for each state which take WIC or WICcash.
+    '''
+
+    pass
+    # Your code should look like this:
+    # return '''SELECT * FROM universities;'''
+
+
+def state_population_gain():
+    '''
+    Return a SQL statement which gives the 10 states with the highest
+    population gain from 2000 to 2010.
     '''
 
     pass

@@ -20,6 +20,9 @@ def run_sql_query(db, command):
     return [d for d in data]
     con.close()
 
+def function_x(a,b):
+    return a+b
+
 class TestAssessment1(unittest.TestCase):
 
     def test_count_characters(self):
@@ -66,12 +69,37 @@ class TestAssessment1(unittest.TestCase):
         self.assertTrue(np.all(answer2 == result2))
 
 
-    def test_data_frame_work(self):
+    def test_data_frame_easy(self):
         df = pd.DataFrame({'a': [1, 2, 3], 'b': [4, 5, 6]})
         colA, colB, colC = ('a', 'b', 'c')
-        a.data_frame_work(df, colA, colB, colC)
+        a.data_frame_easy(df, colA, colB, colC)
         self.assertTrue(colC in df.columns.tolist())
         self.assertEqual(df[colC].tolist(), [5, 7, 9])
+
+
+    def test_data_frame_med(self):
+        df = pd.DataFrame({'a': [1, 2, 3, 4, 5, 6]})
+        colA, colB = ('a','b')
+        win = 3
+        min_val = 2
+        a.data_frame_med(df, colA, win=win,min_val=min_val)
+        self.assertTrue(colB in df.columns.tolist())
+        self.assertEqual([str(x) for x in df[colB].tolist()], ['nan','3.0','6.0','9.0','12.0','15.0'])
+
+
+    def test_data_frame_hard(self):
+        df = pd.DataFrame({'a': [1, 2, 3], 'b': [4, 5, 6]})
+        colA, colB, colC = ('a', 'b', 'c')
+        a.data_frame_hard(df, colA, colB, function_x)
+        self.assertTrue(colC in df.columns.tolist())
+        self.assertEqual(df[colC].tolist(), [5, 7, 9])
+
+    def test_num_to_word_string(self):
+        s = 245
+        str_actual = "two hundred and forty five"
+        output = a.num_to_word_string(s)
+        self.assertTrue(type(output)==str)
+        self.assertEqual(output, str_actual)       
 
 
     def test_markets_per_state(self):
