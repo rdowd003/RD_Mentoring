@@ -53,17 +53,8 @@ Give an example set up where you'd use each
 11. What are the assumptions of linear regression?
 
 
-12. Given the prediction output (below) of a classifier model with a binary-class set up, use the 
-"actual_labels" (correct labeling) to compute the metrics below:
-
-pred_labels =   [0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0]
-actual_labels = [0,0,0,1,1,0,0,0,1,0,0,1,0,1,0,0,1]
-
-    a. Precision?
-
-    b. Accuracy?
-
-    c. Recall?
+12. Considering the development of an image classification model, what is a scenario / application 
+in which you would want to prioritize precision over recal (sensitivity)? What about recall over precision?
 
 
 13. Given the same model output as above, answer the following questions:

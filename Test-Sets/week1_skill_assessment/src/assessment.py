@@ -9,7 +9,7 @@ import collections
 
 
 # ---------------------------------------------------------------------------------------------------------
-# Python Fluency  ++ 2 more
+# Python Fluency 
 # ---------------------------------------------------------------------------------------------------------
 
 def count_characters(string):
@@ -67,11 +67,35 @@ def word_count(filename):
 
 
 # Medium hard
+def classifier_eval(preds,actual):
+    '''
+    INPUT: LISTS
+    OUTPUT: TUPLE 
+
+    The INPUT is:
+        - Preds: List len(n) of 1s and zeros reflecting prediction labels output by model
+        - actual List len(n) of 1s and zeros reflecting actual data point labels 
+    The OUTPUT is a Tuple with classifier scorig metrics rounded to the nearest 1/10 th, in the following order:
+        - precision
+        - recall
+        - accuracy
+    For example:
+        - INPUT
+            - preds  = [0,0,0,1,0,0,0,0,0,1,0,0,1,1]
+            - actual = [1,0,0,1,0,1,0,0,0,1,1,0,1,0]
+        - OUTPUT: 
+            return (precision,recall,accuracy)
+                precision = 0.95
+                recall = 0.83
+                accuracy = 0.85
+
+    '''
+
+    pass
+    # Insert code here 
 
 
-
-# Very challenging (it's okay if you do not get this. Hint, it is not a one-liner)
-
+# Note: This one is very challenging & not particularly short (it's okay if you do not get this)
 def num_to_word_string(n):
     '''
     INPUT: INTEGER
@@ -90,7 +114,7 @@ def num_to_word_string(n):
 
 
 # ---------------------------------------------------------------------------------------------------------
-# Statistics & Probability ++ 1 more
+# Statistics & Probability
 # ---------------------------------------------------------------------------------------------------------
 
 
@@ -110,6 +134,42 @@ def cookie_jar(a, b):
     Return the probability that the cookie came from Jar A.
     '''
     pass
+    # Insert code here
+
+
+def mab_slots(reward_dict,episilon,seed,runs):
+    '''
+    INPUT: 
+        - df: dictionary
+        - episilon: INTEGER
+        - seed: INTEGER
+        - runs: INTEGER
+    OUTPUT: 
+        - INTEGER
+
+    Implement a simple multi-armed bandit testing algorithm for a set of fake
+    slot machines. There will be 3 slot machines, and the deciding threshold
+    will be (episilon). The function will accept a pyton dictionary where each
+    key represents the slot machine name and the values are a list of rewards
+    representing the reward gain from that machine for each run. The goal is to 
+    return the total sum reward after all trial runs
+
+    INPUT:
+        - reward_dict: rows = reward, columns = slot machine
+        e.g.: d = {'S1':[0,5,4,6,3],
+                   'S2:[1,10,11,4,3],
+                   'S3':[2,5,7,2,31]}
+        - episilon: value between 0 & 1 (e.g. 0.20)
+        - seed: value between 1 and 100 (e.g. 4) to set numpy random seed
+        - runs: total number of runs (loops to iterate) - e.g.: 100
+    OUTPUT:
+        - total_reward: sum of rewards from each run after total runs
+
+    Note: Assume `runs` ≤ len of lists per slot machine
+    Hint: value < epislon = random, else greedy
+    '''
+
+    np.random.seed(seed)
     # Insert code here
 
 
@@ -178,7 +238,7 @@ def data_frame_hard(df, colA, colB, function_x):
 
 
 # ---------------------------------------------------------------------------------------------------------
-# SQL SECTION ++ 3 more --> make them way harder
+# SQL SECTION
 # ---------------------------------------------------------------------------------------------------------
 
 # For each of these, your python function should return a string that is the
@@ -229,13 +289,27 @@ def state_population_gain():
     # return '''SELECT * FROM universities;'''
 
 
-def state_population_gain():
+def farmers_wine_and_honey():
     '''
-    Return a SQL statement which gives the 10 states with the highest
-    population gain from 2000 to 2010.
+    Return a SQL statement which gives the name of the county
+    with the greatest number of cities that sell wine & honey,
+    and the count of cities.
     '''
 
     pass
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
+
+
+def mad_cheese_markets():
+    '''
+    Return a SQL statement which returns the state, county with the 
+    most amount of farmers markets that sell cheese, and have at least
+    20+ markets selling cheese
+    '''
+
+    return '''select state,county,count(distinct fmid) c from farmersmarkets where cheese = 'Y' group by 1 having c > 20 order by c desc limit 3;'''
+    # Your code should look like this:
+    # return '''SELECT * FROM universities;''' 
+
 

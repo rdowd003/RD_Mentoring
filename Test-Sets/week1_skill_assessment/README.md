@@ -149,13 +149,13 @@ The repository has the following folder structure:
             └── user_exercise_logs_data.csv
 
 There are 40 problems & a short data challenge (case study) total in the assessment.  All the problems should be completed or attempted, if possible.   
-- 20 coding questions in `src/assessment.py`: 
-    - 5 python fluency
+- 15 coding questions in `src/assessment.py`: 
+    - 3 python fluency
     - 2 python challenge
-    - 3 python statistics
-    - 5 numpy/pandas/matplotlib
-    - 5 sql fluency
-- 30 math & conceptual questions in `concepts/concepts.txt`: 
+    - 2 python statistics
+    - 4 numpy/pandas/matplotlib
+    - 4 sql fluency
+- 25 math & conceptual questions in `concepts/concepts.txt`: 
     - 10 math, Statistics & probability
     - 10 machine learning & algorithms
     - 5 data tooling
@@ -167,9 +167,9 @@ There are 40 problems & a short data challenge (case study) total in the assessm
 
  * **Running Unit Tests**
 
- * This section (`src/assessment.py`) can be tested using the unit tests. You can run the tests with this command from the *root* directory (fork_repository_name/ )):    
+ * This section (`src/assessment.py`) can be tested using the unit tests. You can run the tests with this command from within the week1_skills_assessment directory:    
 
-    `py.test`
+    `make test`
 
  * If you do not have py.test, you may see Import errors. Run the following commands in case you see such errors:    
 
