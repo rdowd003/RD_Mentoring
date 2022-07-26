@@ -5,7 +5,23 @@ Welcome to skills assessment!  This assessment will be used to gauge your streng
 
 This assessment has **three parts**: a coding part (`assessment.py`) and a math/concept part (`concepts.txt`). Once you complete the entire assessment, you will submit a pull request so that your work can be assessed. The questions for each topic section some questions are easy, some will be more challenging. That said, it is okay if you are unable to answer queston or are sure about your responses. You should refrain from relying entirely on external resources like books & notes, as much as possible so that it is an accurate assessment of the current state of your data science skills and knowledge.
 
+## Tl;dr
+1. Complete the code challenge
+    - Fill in functions with your responses
+    - run `make test` within the week1_skills_assessment directory
+    - go back adn fix incorrect functions
 
+2. Complete the concepts.txt file
+
+3. Complete the case study (jupyter notebook)
+
+4. Once all three are done push your changes to the coreyholt
+
+5. We will review together
+
+
+
+## Instructions in Detail
 ### 1A. Python
 Take this assessment using  **Python 3**.  To check which version of Python is installed natively, type `python --version` in the terminal. 
 
@@ -182,7 +198,7 @@ There are 40 problems & a short data challenge (case study) total in the assessm
 2. The questions for the concepts portion of the assessment are in `concepts.txt`.
   There are no automated tests for this portion of the assessment.
 
-* When you feel you have finished, submit a pull request.
+* When you feel you have finished, push changes to your branch: coreyholt
 
 
 Good luck!
