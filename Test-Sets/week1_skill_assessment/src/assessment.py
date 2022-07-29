@@ -22,8 +22,15 @@ def count_characters(string):
     Characters which with a count of 0 should not be included in the
     output dictionary.
     '''
-    pass
-    # Insert code here
+    ans = {}
+    for i in string:
+        if i not in ans:
+            ans[i] = 1
+        else:
+            ans[i] += 1
+
+    return ans
+
 
 	    
 
@@ -38,8 +45,14 @@ def invert_dictionary(d):
     the set of d's keys which shared the same value.
     e.g. {'a': 2, 'b': 4, 'c': 2} => {2: {'a', 'c'}, 4: {'b'}}
     '''
-    pass
-    # Insert code here
+    # I had to look up how to create and add to a set
+    ans = {}
+    for i in d.items():
+        if i[1] not in ans:
+            ans[i[1]] = set(i[0])
+        else:
+            ans[i[1]].add(i[0])     
+    return ans
 
 
 
@@ -56,9 +69,15 @@ def word_count(filename):
       2. number of words (broken by whitespace)
       3. number of characters
     '''
+    # I had to look up the open syntax
+    f = open(filename, 'r')
+    data = f.read()
+    lines = len(f.readlines())
+    words = len(data.split())
+    chars = len(data)
 
-    pass
-    # Insert code here
+    return (lines, words, chars)
+
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -67,6 +86,7 @@ def word_count(filename):
 
 
 # Medium hard
+from sklearn.metrics import f1_score
 def classifier_eval(preds,actual):
     '''
     INPUT: LISTS
@@ -90,9 +110,28 @@ def classifier_eval(preds,actual):
                 accuracy = 0.85
 
     '''
+    tp = 0
+    fp = 0
+    tn = 0
+    fn = 0
 
-    pass
-    # Insert code here 
+    for i in range(len(preds)):
+        if preds[i]:
+            if actual[i]:
+                tp += 1
+            else:
+                fp += 1
+        else:
+            if actual[i]:
+                fn += 1
+            else:
+                tn += 1
+    
+    recall = tp/(tp+fn)
+    precision = tp/(tp+fp)
+    accuracy = (tp + tn)/len(preds)
+
+    return (round(precision, 2), round(recall, 2), round(accuracy, 2))
 
 
 # Note: This one is very challenging & not particularly short (it's okay if you do not get this)
@@ -108,6 +147,7 @@ def num_to_word_string(n):
         - OUTPUT: One thousand three hundred and forty two"
     Note: Do not worry about punctuation & capitalization
     '''
+    my_dict = {10:'ten', 11:'twenty'}
 
     pass
     # Insert code here   
@@ -133,8 +173,7 @@ def cookie_jar(a, b):
     The cookie is chocolate.
     Return the probability that the cookie came from Jar A.
     '''
-    pass
-    # Insert code here
+    return 0.5 * a
 
 
 def mab_slots(reward_dict,episilon,seed,runs):
@@ -171,6 +210,7 @@ def mab_slots(reward_dict,episilon,seed,runs):
 
     np.random.seed(seed)
     # Insert code here
+    pass
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -194,8 +234,7 @@ def array_work(rows, cols, scalar, matrixA):
             [5, 6],   *   [5, 5, 5]]
             [7, 8]]
     '''
-    pass
-    # Insert code here
+    return np.matmul(np.full((rows, cols), scalar), matrixA)
 
 
 
@@ -207,21 +246,21 @@ def data_frame_easy(df, colA, colB, colC):
     Insert a column (colC) into the dataframe that is the sum of colA and colB.
     Assume that df contains columns colA and colB and that these are numeric.
     '''
-    pass
-    # Insert code here
+    df[colC] = df[colA] + df[colB]
+    
 
 
 def data_frame_med(df, colA, win, min_val):
     '''
-    INPUT: DATAFRAME, STR, STR, STR
+    INPUT: DATAFRAME, STR, INT, INT
     OUTPUT: None
 
     Insert a column (colB) into the dataframe that computes a rolling sum on
     colA, with a window size (win) and a minimum (min_val) number of
     values in the window required to compute the rolling sum
     '''
-    pass
-    # Insert code here
+    # I don't think i've ever done this so I had to look this up
+    df['b'] = df[colA].rolling(win, min_periods=min_val).sum()
 
 
 def data_frame_hard(df, colA, colB, function_x):
@@ -232,8 +271,7 @@ def data_frame_hard(df, colA, colB, function_x):
     Insert a column (colC) into the dataframe that maps function_x, which takes
     colA & colB as input.
     '''
-    pass
-    # Insert code here
+    df['c'] = df.apply(lambda x: function_x(x[colA], x[colB]), axis=1)
 
 
 
@@ -272,8 +310,7 @@ def markets_per_state():
     Return a SQL statement which gives the states and a count of the number of
     markets for each state which take WIC or WICcash.
     '''
-
-    pass
+    return '''select state, sum(case when wic = 'Y' then 1 when wiccash = 'Y' then 1 else 0 end) as wictrue from farmersmarkets group by state;'''
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
@@ -283,8 +320,8 @@ def state_population_gain():
     Return a SQL statement which gives the 10 states with the highest
     population gain from 2000 to 2010.
     '''
-
-    pass
+    return '''SELECT state, (pop2010 - pop2000) as change FROM statepopulations ORDER BY change DESC LIMIT 10;'''
+    
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
@@ -295,8 +332,10 @@ def farmers_wine_and_honey():
     with the greatest number of cities that sell wine & honey,
     and the count of cities.
     '''
+    
+    return '''SELECT county, COUNT(city) as num_cities FROM farmersmarkets GROUP BY county ORDER BY num_cities DESC LIMIT 1;'''
 
-    pass
+    
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
