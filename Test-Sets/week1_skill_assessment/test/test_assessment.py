@@ -97,8 +97,8 @@ class TestAssessment1(unittest.TestCase):
 
 
     def test_classifier_eval(self):
-        pred_labels = [0,0,0,1,0,0,0,0,0,1,0,0,1,1]
-        true_labels = [1,0,0,1,0,1,0,0,0,1,1,0,1,0]
+        pred_labels = np.array([0,0,0,1,0,0,0,0,0,1,0,0,1,1])
+        true_labels = np.array([1,0,0,1,0,1,0,0,0,1,1,0,1,0])
         tp = np.sum(np.logical_and(pred_labels == 1, true_labels == 1))
         tn = np.sum(np.logical_and(pred_labels == 0, true_labels == 0))
         fp = np.sum(np.logical_and(pred_labels == 1, true_labels == 0))

@@ -55,7 +55,8 @@ Give an example set up where you'd use each
 
 12. Considering the development of an image classification model, what is a scenario / application 
 in which you would want to prioritize precision over recal (sensitivity)? What about recall over precision?
-
+    prioritze precision when you can't accept false negatives (disease/cancer identification)
+    prioritize recall when you don't want false negatives 
 
 13. Given the same model output as above, answer the following questions:
     a. What do you notice about the class-balance of actual labels?
@@ -97,34 +98,43 @@ Final Output layer (2 nodes, sigmoid activation)
 
 19. Give one common use case / application for each of the following types of neural network frameworks
     a. Convolutional Neural Network
-
+        object identification
     b. Autoencoder
-
+        semantic segmentation
     c. Long-short Term Memory (LSTM) Network
-
+        timeseries 
     d. Generative Adversarial Network (GAN)
-
+        cyber security? Use an adversarial model to try to fool your defensive model. Not really certain though
 
 20. If a model type that we are using is prone to *very* high bias, and the training/test accuracy are 95% & 90% respectively, 
 what is a reasonable validation (final hold-out) accuracy that we might expect when the final-hold out set is tested? 
 Given an example of a model-type that would exhibit this type of bias-variance behavior
+    If the training algorithm used kfolds and each iteration achieved ~90% test accuracy, then I would expect the final hold-out accuracy to be less than 90. 
+    If the training did not use kfolds, then I would expect the final accuracy to be similar to the test accuracy, 
+        because the model was never trained on the test data. 
 
 
 20. What are 3 different methods of dimensionality reduction?
+    LDA, 
 
 
 
 21. What is the difference between a relational & a non-relational database?
+    relational databases are essential tabular data (rows, cols). non-relational databases include graphs, documents (similar to JSON) and a couple others.
+    NRDs typically contain one-to-many relationships
 
 
 22. What is a virtual machine? How do you create/access one?
+    running an instance of some other system on a computer; similar to an emulator. 
 
 
 23. What is Spark? Why is it considered superior than its predecessor (HDFS/MapReduce)?
 
 
 24. What is an API? (is this is simple, help explain to someone who might not know what it is)
-
+    APIs allow you to interact with an external softaware/database. 
+    The API creator provides endpoints that expose data to users in a format that is chosen by the API creator.
+    For instance, most (all?) web links are endpoints that retrieve data from databases through servers. 
 
 25. What are advantages of of batch-processing ML predictions in production? What about a
 streaming framework? Are there better hybrid methods?
