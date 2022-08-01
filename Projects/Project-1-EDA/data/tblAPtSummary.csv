@@ -1,0 +1,452 @@
+RecID,PtID,Gender,AgeAsOfRandDt,Race,Ethnicity,Height,Weight,DurDiabetes,InsulinModality,NumSevHypo,HGMReadAvg,EduCareGvrP,EduCareGvrPEdu,RandDt,TxGroup
+1,307,M,46,White,Not Hispanic or Latino,167.8,93.4,31,Pump,0,,Subject,Bachelors,1/9/2000 13:42,Control
+2,258,M,18,White,Not Hispanic or Latino,193.5,97.1,10.4,Pump,0,,Mother,Bachelors,1/15/2000 14:26,RT-CGM
+3,309,M,16,White,Not Hispanic or Latino,174,73,6.1,Pump,0,,Mother,Bachelors,1/14/2000 9:57,Control
+4,344,F,69,White,Not Hispanic or Latino,162.5,64.7,14.8,Pump,0,,Subject,Masters,1/20/2000 11:06,Control
+5,350,F,13,White,Not Hispanic or Latino,165.1,62.3,7.1,Pump,0,,Father,Associates,1/14/2000 17:28,RT-CGM
+7,464,F,11,White,Not Hispanic or Latino,151.4,53.6,4,Pump,0,,Mother,12,1/16/2000 19:03,RT-CGM
+8,474,F,17,White,Not Hispanic or Latino,171.5,69.3,7.8,Pump,0,,Mother,Bachelors,1/22/2000 14:21,Control
+9,66,M,16,White,Not Hispanic or Latino,179.2,52.3,5,Pump,0,,Mother,Associates,1/21/2000 16:19,Control
+10,270,F,12,White,Not Hispanic or Latino,162.8,50.1,2.8,Pump,0,,Father,Professional,1/26/2000 16:13,Control
+11,22,F,14,White,Unknown/not reported,163.6,61.2,5.2,Pump,0,,Mother,Bachelors,1/23/2000 16:36,Control
+12,311,F,17,White,Not Hispanic or Latino,175.8,86.5,5.6,Pump,0,,Mother,Associates,1/27/2000 14:36,Control
+13,88,M,8,White,Not Hispanic or Latino,134.3,28.1,2.8,Pump,0,,Mother,12,2/2/2000 14:51,Control
+14,386,F,13,White,Not Hispanic or Latino,175.3,79.5,1.9,Pump,0,,Mother,Masters,1/30/2000 19:06,RT-CGM
+15,376,F,13,White,Unknown/not reported,170,73,2.9,Pump,0,,Mother,12,1/30/2000 12:25,Control
+16,56,F,13,White,Not Hispanic or Latino,165.2,46.3,5.1,Pump,0,,Mother,Associates,2/6/2000 11:07,Control
+18,92,M,15,White,Not Hispanic or Latino,175,75,7.6,Pump,0,,Mother,12,2/4/2000 10:37,RT-CGM
+19,367,F,12,White,Unknown/not reported,160.4,51.6,6,Pump,0,,Mother,Bachelors,2/4/2000 12:48,RT-CGM
+20,186,F,15,White,Not Hispanic or Latino,169,76.8,7.2,Pump,0,,Mother,Professional,2/4/2000 18:19,RT-CGM
+23,318,M,16,White,Not Hispanic or Latino,183,72.1,12.2,Pump,0,,Mother,Bachelors,2/9/2000 9:40,Control
+24,406,F,17,White,Not Hispanic or Latino,161.7,60.7,11.9,Pump,0,,Mother,Masters,2/9/2000 9:29,RT-CGM
+25,280,M,15,White,Not Hispanic or Latino,171,52,5.3,Pump,0,,Mother,Associates,2/12/2000 12:54,RT-CGM
+26,470,M,13,White,Not Hispanic or Latino,147.1,41.6,6.4,Pump,0,,Mother,Associates,2/11/2000 10:03,RT-CGM
+27,180,F,26,White,Not Hispanic or Latino,165,71.3,21.2,Pump,0,,Subject,Masters,2/6/2000 19:20,Control
+28,433,F,37,White,Not Hispanic or Latino,160,106.4,16,Pump,0,,Subject,Bachelors,2/11/2000 16:24,Control
+29,442,F,11,White,Not Hispanic or Latino,145.9,44.3,1.6,Injections,0,,Father,Bachelors,3/2/2000 15:08,RT-CGM
+30,4,M,10,White,Not Hispanic or Latino,136.1,32.6,8.5,Pump,0,,Mother,Bachelors,2/25/2000 14:44,Control
+31,341,M,37,White,Not Hispanic or Latino,186.7,78.8,24,Pump,0,,Subject,12,2/13/2000 9:14,RT-CGM
+32,74,F,10,White,Unknown/not reported,138.2,34.6,3.5,Pump,0,,Mother,12,2/13/2000 13:01,Control
+33,77,F,23,White,Not Hispanic or Latino,175.6,70.4,17,Pump,0,,Subject,Bachelors,2/19/2000 11:14,Control
+34,459,F,23,White,Not Hispanic or Latino,171.1,85.6,16.5,Pump,0,,Subject,Bachelors,2/18/2000 12:25,RT-CGM
+35,389,M,13,White,Not Hispanic or Latino,167.9,63.9,2.8,Pump,0,,Mother,Associates,2/16/2000 11:34,Control
+36,169,F,46,White,Not Hispanic or Latino,166.9,98.2,16.7,Pump,0,,Subject,Associates,2/17/2000 12:50,RT-CGM
+37,468,M,12,White,Not Hispanic or Latino,153.7,44.8,11.2,Pump,0,,Mother,Professional,2/19/2000 14:56,RT-CGM
+38,134,M,19,White,Hispanic or Latino,179.6,70.3,18.5,Pump,1,,Subject,12,2/25/2000 9:35,RT-CGM
+39,483,F,40,White,Not Hispanic or Latino,170,81.8,24.2,Pump,0,,Subject,Bachelors,2/18/2000 16:38,RT-CGM
+40,319,F,29,White,Not Hispanic or Latino,156.8,95.1,18.9,Pump,0,,Subject,Bachelors,2/13/2000 15:43,Control
+41,72,M,41,White,Not Hispanic or Latino,176,76.8,16,Pump,0,,Subject,Bachelors,2/20/2000 15:25,RT-CGM
+42,59,M,9,White,Not Hispanic or Latino,139.6,35.7,8,Pump,0,,Mother,Masters,2/23/2000 15:53,RT-CGM
+43,441,F,12,White,Unknown/not reported,147,50.6,4.8,Pump,0,,Mother,Masters,2/20/2000 17:19,RT-CGM
+44,346,F,17,White,Not Hispanic or Latino,168.5,65.1,8.5,Pump,0,,Father,Professional,2/18/2000 9:46,RT-CGM
+45,246,M,11,White,Not Hispanic or Latino,142.6,40.5,3.4,Pump,0,,Mother,Bachelors,2/24/2000 17:59,Control
+46,223,F,12,White,Not Hispanic or Latino,162,59,5.5,Pump,0,,Mother,Bachelors,3/1/2000 15:38,RT-CGM
+47,54,F,42,White,Not Hispanic or Latino,166.5,61.8,7.3,Pump,0,,Subject,Bachelors,2/26/2000 14:10,Control
+48,310,M,18,White,Hispanic or Latino,179.1,85.6,7.6,Pump,0,,Subject,12,2/26/2000 17:35,RT-CGM
+49,45,M,38,White,Not Hispanic or Latino,189,102.7,24,Pump,0,,Subject,Professional,2/27/2000 16:31,RT-CGM
+50,369,M,17,White,Hispanic or Latino,187.5,85.5,9.2,Pump,0,,Mother,Bachelors,3/3/2000 9:33,RT-CGM
+51,496,M,13,White,Not Hispanic or Latino,159.4,58.8,7.5,Pump,0,,Mother,Bachelors,3/8/2000 10:46,RT-CGM
+52,148,F,8,Asian,Not Hispanic or Latino,131.4,29,7.1,Pump,0,,Father,Masters,3/2/2000 14:23,Control
+53,449,M,14,White,Not Hispanic or Latino,167.6,58.5,1,Pump,0,,Mother,Masters,3/3/2000 14:08,RT-CGM
+54,232,F,33,White,Not Hispanic or Latino,169,69,9.3,Pump,0,,Subject,Masters,3/3/2000 13:19,RT-CGM
+55,131,F,16,White,Not Hispanic or Latino,170,65.8,15.2,Pump,0,,Mother,Bachelors,3/3/2000 9:44,Control
+56,282,M,14,White,Not Hispanic or Latino,167.2,81.6,12.8,Pump,0,,Mother,Associates,3/3/2000 17:12,RT-CGM
+57,257,M,24,White,Not Hispanic or Latino,172.4,76.6,3.3,Pump,1,,Subject,Bachelors,3/4/2000 8:51,RT-CGM
+58,162,M,12,White,Not Hispanic or Latino,148.5,42.8,7.1,Pump,0,,Mother,Masters,3/4/2000 16:27,Control
+59,385,F,13,White,Not Hispanic or Latino,162.6,53.4,9.1,Pump,0,,Mother,Associates,3/8/2000 16:38,Control
+60,37,F,13,White,Not Hispanic or Latino,176.1,76.3,10.5,Pump,0,,Mother,Professional,3/4/2000 13:31,Control
+61,122,M,8,White,Not Hispanic or Latino,126.1,27.4,3.3,Pump,0,,Mother,Bachelors,3/11/2000 18:45,Control
+62,387,F,8,White,Not Hispanic or Latino,136.8,28.9,7.3,Pump,0,,Mother,Masters,3/10/2000 16:15,RT-CGM
+64,374,M,65,White,Not Hispanic or Latino,172.7,80.7,59.2,Pump,0,,Subject,Masters,3/8/2000 14:19,RT-CGM
+65,6,F,17,White,Not Hispanic or Latino,158.3,60.5,5.3,Pump,0,,Mother,Bachelors,3/17/2000 12:44,Control
+66,255,M,40,White,Not Hispanic or Latino,165.5,66.6,31.6,Pump,0,,Subject,Masters,3/11/2000 12:15,Control
+67,229,F,34,White,Not Hispanic or Latino,152.4,56.2,26.9,Pump,3,,Subject,Bachelors,3/11/2000 16:42,RT-CGM
+68,47,M,17,White,Not Hispanic or Latino,181.5,69.3,11.9,Injections,0,,Mother,Bachelors,3/23/2000 16:13,RT-CGM
+69,419,M,16,White,Not Hispanic or Latino,188,69.8,14,Pump,0,5,Father,Bachelors,3/15/2000 15:19,Control
+70,157,M,23,White,Not Hispanic or Latino,175.1,78.6,4.3,Injections,0,,Subject,Bachelors,3/10/2000 15:55,RT-CGM
+71,265,F,14,White,Not Hispanic or Latino,175.6,78.6,10.8,Pump,0,5,Father,Masters,3/16/2000 11:59,Control
+72,25,M,9,White,Not Hispanic or Latino,139,43.3,2.3,Pump,0,4,Mother,Bachelors,3/18/2000 11:30,Control
+73,343,F,11,White,Not Hispanic or Latino,154.5,39.5,2.7,Pump,0,8,Mother,Masters,3/17/2000 10:50,RT-CGM
+74,321,M,51,White,Not Hispanic or Latino,187.9,100.6,18.2,Pump,0,10,Subject,Bachelors,3/23/2000 15:30,RT-CGM
+75,446,F,11,White,Not Hispanic or Latino,151.9,40.3,6,Pump,0,6,Mother,Professional,3/19/2000 17:58,RT-CGM
+76,381,F,20,White,Not Hispanic or Latino,167.6,67.5,9.1,Pump,0,5,Subject,12,3/23/2000 9:09,Control
+77,339,M,10,White,Not Hispanic or Latino,143.8,34.7,2,Pump,0,7,Mother,Bachelors,3/22/2000 10:54,Control
+78,242,F,41,White,Not Hispanic or Latino,172,65.3,26.7,Pump,1,4,Subject,Bachelors,3/24/2000 10:20,Control
+79,221,F,8,White,Not Hispanic or Latino,131.1,32.4,6.8,Pump,0,7,Mother,Bachelors,3/23/2000 18:19,RT-CGM
+80,185,F,28,White,Not Hispanic or Latino,165.1,72.3,21.3,Pump,0,7,Subject,Bachelors,3/23/2000 10:39,RT-CGM
+81,70,M,15,White,Not Hispanic or Latino,170.7,77.5,12.9,Pump,0,4,Father,12,3/24/2000 14:43,Control
+82,373,F,14,White,Not Hispanic or Latino,160.3,51.2,11,Pump,0,8,Mother,Bachelors,3/25/2000 10:56,RT-CGM
+83,501,M,14,White,Not Hispanic or Latino,171.4,60.5,6.7,Pump,0,7,Mother,Bachelors,3/24/2000 11:49,Control
+84,421,F,21,White,Not Hispanic or Latino,167.2,62.4,4.7,Pump,0,6,Subject,Associates,3/24/2000 16:11,Control
+85,490,M,19,White,Not Hispanic or Latino,188.6,89.5,17.9,Pump,0,7,Subject,12,3/31/2000 14:22,RT-CGM
+86,239,F,45,White,Not Hispanic or Latino,159,57.1,35.3,Pump,0,7,Subject,Masters,3/25/2000 13:23,RT-CGM
+87,488,M,64,White,Not Hispanic or Latino,170.2,69.9,49.3,Pump,0,7,Subject,Professional,3/25/2000 15:54,Control
+88,116,F,10,White,Not Hispanic or Latino,153,41.4,3.6,Pump,0,10,Mother,Bachelors,3/25/2000 16:38,RT-CGM
+89,494,F,10,White,Not Hispanic or Latino,150.1,44.4,1.8,Pump,0,6,Mother,Bachelors,3/30/2000 13:07,Control
+90,460,F,22,White,Not Hispanic or Latino,168.1,63.9,9.1,Pump,0,12,Subject,Associates,4/1/2000 10:49,Control
+91,267,M,38,White,Not Hispanic or Latino,179,88.9,13.7,Pump,0,6,Subject,Masters,3/26/2000 12:16,RT-CGM
+92,205,F,13,White,Not Hispanic or Latino,157.4,50.9,4.8,Pump,0,8,Mother,Bachelors,3/29/2000 11:56,Control
+93,188,M,11,White,Not Hispanic or Latino,142.7,40.2,10.2,Pump,1,4,Mother,12,4/1/2000 13:27,Control
+94,461,M,61,White,Not Hispanic or Latino,157.5,54.9,23.2,Injections,0,5,Subject,Associates,3/31/2000 18:22,Control
+95,130,F,22,White,Not Hispanic or Latino,176.7,72.9,13,Injections,0,5,Subject,Bachelors,4/1/2000 9:08,RT-CGM
+96,14,F,29,White,Not Hispanic or Latino,165.1,58,25.3,Pump,0,6,Subject,Bachelors,4/1/2000 13:38,RT-CGM
+97,71,F,17,Unknown/not reported,Hispanic or Latino,172.5,86.8,1.3,Pump,0,4,Mother,Masters,4/7/2000 17:12,RT-CGM
+98,254,M,58,White,Unknown/not reported,174,78.2,54,Pump,0,9,Subject,Professional,4/5/2000 15:11,Control
+99,240,F,37,White,Unknown/not reported,162.5,73.9,29.7,Pump,0,4,Subject,Bachelors,4/8/2000 15:08,Control
+101,139,M,11,White,Not Hispanic or Latino,150.9,48.5,2.3,Pump,0,8,Mother,12,3/31/2000 10:12,Control
+102,359,M,18,White,Not Hispanic or Latino,177.4,73.3,8.2,Pump,0,4,Subject,11,4/12/2000 14:05,RT-CGM
+103,402,F,15,White,Not Hispanic or Latino,176.1,76.4,13.4,Pump,0,6,Mother,Bachelors,4/7/2000 17:21,Control
+104,87,F,11,White,Not Hispanic or Latino,147.1,39.6,5.3,Pump,1,8,Mother,Professional,4/8/2000 14:53,Control
+105,50,M,24,White,Not Hispanic or Latino,192.3,89.5,16.9,Pump,0,7,Subject,Professional,4/8/2000 11:21,RT-CGM
+106,11,F,10,White,Not Hispanic or Latino,152,42.7,3.3,Pump,0,9,Mother,Associates,4/14/2000 15:05,RT-CGM
+107,78,F,14,White,Not Hispanic or Latino,160.7,64.1,2.3,Pump,0,6,Father,Professional,4/14/2000 11:49,RT-CGM
+108,23,F,15,White,Not Hispanic or Latino,169.4,60.9,4.8,Pump,0,5,Mother,Bachelors,4/9/2000 11:50,RT-CGM
+110,256,M,14,White,Unknown/not reported,176.3,61.2,10.3,Pump,0,4,Mother,Bachelors,4/9/2000 15:46,RT-CGM
+111,150,F,12,White,Not Hispanic or Latino,155.2,44.8,10.3,Pump,0,8,Mother,Masters,4/14/2000 16:50,Control
+112,303,F,18,White,Not Hispanic or Latino,159.3,65.7,5.6,Pump,0,8,Mother,Associates,4/15/2000 14:46,Control
+113,456,F,22,White,Not Hispanic or Latino,183,91.5,15.9,Pump,0,9,Subject,12,4/14/2000 11:02,Control
+114,67,F,16,White,Not Hispanic or Latino,156.7,49.4,6.3,Pump,0,6,Father,Bachelors,4/14/2000 13:50,Control
+115,75,M,10,White,Not Hispanic or Latino,139.1,30.9,2.4,Injections,0,9,Mother,Associates,4/16/2000 15:10,RT-CGM
+116,132,F,13,White,Not Hispanic or Latino,161.5,60,6.1,Pump,0,8,Mother,12,4/15/2000 18:16,Control
+117,153,F,52,White,Not Hispanic or Latino,155,67.1,33.8,Injections,0,5,Subject,Masters,4/13/2000 13:24,RT-CGM
+118,117,F,67,White,Not Hispanic or Latino,167,76.2,12.5,Injections,2,5,Subject,Associates,4/14/2000 13:32,Control
+119,226,F,22,White,Not Hispanic or Latino,165.1,63.6,11,Injections,0,4,Subject,Associates,4/16/2000 12:29,Control
+120,476,F,39,White,Not Hispanic or Latino,175,64.9,27.3,Pump,0,5,Subject,12,4/20/2000 15:12,RT-CGM
+121,397,F,17,White,Not Hispanic or Latino,159.5,61,15.3,Pump,0,5,Mother,Masters,4/16/2000 17:29,Control
+122,434,F,12,White,Not Hispanic or Latino,160.1,53.5,3.1,Pump,0,7,Mother,Bachelors,4/19/2000 10:37,RT-CGM
+124,354,F,33,White,Not Hispanic or Latino,170.2,71.8,20.8,Pump,0,9,Subject,Masters,4/21/2000 16:14,Control
+125,498,F,20,White,Not Hispanic or Latino,168.1,70.4,12.8,Pump,0,5,Subject,Associates,4/21/2000 10:09,Control
+126,320,M,9,White,Not Hispanic or Latino,131.1,26.4,8.3,Pump,0,13,Mother,Associates,4/22/2000 9:33,Control
+127,417,M,17,White,Not Hispanic or Latino,183.8,87.6,10.8,Pump,0,4,Mother,Masters,4/20/2000 16:35,RT-CGM
+128,161,M,10,More than one race,Hispanic or Latino,133.5,33.4,9.1,Pump,0,14,Father,Associates,6/17/2000 14:35,RT-CGM
+129,281,M,47,White,Not Hispanic or Latino,175,82.1,13.9,Pump,0,10,Subject,Bachelors,4/20/2000 17:44,RT-CGM
+130,347,M,10,White,Not Hispanic or Latino,141.5,32,5.8,Pump,0,8,Mother,Bachelors,7/7/2000 11:26,Control
+131,225,M,8,White,Not Hispanic or Latino,133.8,33.8,3.8,Pump,0,8,Father,Bachelors,6/21/2000 14:19,Control
+132,370,F,11,White,Not Hispanic or Latino,161.2,53.6,6.3,Injections,0,5,Mother,Bachelors,5/27/2000 14:43,Control
+133,458,F,14,White,Not Hispanic or Latino,155.6,53.9,2.8,Pump,0,7,Father,12,5/27/2000 10:42,Control
+135,481,F,9,White,Not Hispanic or Latino,133.3,32.3,4.7,Pump,0,8,Mother,Bachelors,6/11/2000 15:23,RT-CGM
+137,457,M,43,White,Not Hispanic or Latino,187.9,97.9,17.5,Pump,0,5,Subject,Bachelors,4/22/2000 14:44,Control
+138,94,M,13,More than one race,Not Hispanic or Latino,153.5,48.6,6.6,Injections,0,5,Mother,Professional,7/2/2000 13:10,Control
+140,76,M,9,White,Not Hispanic or Latino,133.6,33.9,2.4,Injections,0,5,Father,Masters,5/28/2000 12:08,Control
+141,151,F,69,White,Not Hispanic or Latino,161.5,62.5,30.8,Pump,0,6,Subject,Bachelors,4/26/2000 13:10,Control
+142,428,F,16,White,Not Hispanic or Latino,167.5,69.5,13.3,Pump,0,3,Mother,Masters,4/26/2000 12:48,Control
+143,337,M,18,White,Not Hispanic or Latino,166.9,79.1,10.1,Pump,0,4,Subject,12,4/27/2000 10:12,Control
+144,104,M,10,White,Not Hispanic or Latino,149,36.3,6.5,Pump,0,7,Father,Bachelors,4/30/2000 20:48,RT-CGM
+145,183,F,15,Black/African American,Not Hispanic or Latino,161.7,78.1,11.5,Pump,0,5,Mother,12,4/28/2000 9:39,RT-CGM
+146,95,M,15,White,Not Hispanic or Latino,177.3,71.2,4.3,Pump,0,7,Mother,Bachelors,4/27/2000 9:09,RT-CGM
+147,325,M,12,White,Not Hispanic or Latino,159.9,44.7,1.3,Pump,0,5,Mother,Bachelors,4/30/2000 15:40,RT-CGM
+148,379,F,9,White,Not Hispanic or Latino,153,50.5,3.3,Pump,0,8,Mother,Associates,5/4/2000 9:29,Control
+149,212,M,22,White,Not Hispanic or Latino,170.6,78.1,1.9,Pump,0,6,Subject,Bachelors,5/5/2000 15:57,Control
+150,164,F,30,White,Not Hispanic or Latino,174,74.3,23.7,Pump,0,4,Spouse,Masters,5/4/2000 10:05,Control
+151,471,M,10,White,Not Hispanic or Latino,136.7,40.3,8.2,Pump,0,12,Mother,Masters,5/5/2000 18:43,RT-CGM
+152,189,F,57,White,Not Hispanic or Latino,170.2,65.3,55.6,Pump,3,6,Subject,Bachelors,5/6/2000 12:54,Control
+153,160,M,10,White,Not Hispanic or Latino,143.5,32.8,2.4,Pump,0,12,Mother,12,5/5/2000 9:36,Control
+154,243,M,67,White,Not Hispanic or Latino,172.2,67.1,62.6,Pump,0,9,Subject,Masters,5/5/2000 14:56,RT-CGM
+155,210,F,21,White,Not Hispanic or Latino,174.5,70,16.3,Pump,0,5,Subject,12,5/4/2000 12:45,RT-CGM
+156,327,M,16,White,Not Hispanic or Latino,181.4,84.3,6.4,Pump,>3,11,Mother,Masters,6/22/2000 15:21,RT-CGM
+157,393,M,16,White,Not Hispanic or Latino,179.8,96.9,9.9,Pump,0,3,Father,Associates,5/5/2000 17:20,Control
+158,220,F,61,White,Not Hispanic or Latino,158,62.6,51.8,Pump,0,6,Subject,Bachelors,5/5/2000 18:04,RT-CGM
+159,207,F,49,White,Not Hispanic or Latino,163.5,72.1,35.4,Pump,0,5,Subject,Masters,5/5/2000 18:03,RT-CGM
+160,450,M,9,White,Not Hispanic or Latino,148.8,38.1,5,Pump,0,6,Mother,Associates,5/6/2000 15:32,Control
+163,194,M,72,White,Not Hispanic or Latino,166.4,63.1,59.3,Pump,0,11,Subject,Bachelors,5/6/2000 15:23,RT-CGM
+164,455,F,17,White,Not Hispanic or Latino,157.6,66.4,13.7,Pump,0,2,Mother,12,5/12/2000 9:56,Control
+165,333,M,11,Unknown/not reported,Unknown/not reported,145.7,49.7,6.5,Pump,0,6,Mother,Bachelors,5/12/2000 18:07,Control
+166,198,M,14,White,Not Hispanic or Latino,158.9,42.1,4.3,Pump,0,9,Mother,Bachelors,5/13/2000 9:10,RT-CGM
+168,12,F,18,White,Not Hispanic or Latino,158.9,79.9,16.1,Injections,0,4,Mother,Bachelors,5/14/2000 16:26,Control
+169,102,F,8,White,Not Hispanic or Latino,129.9,27.6,2.8,Pump,0,10,Mother,Masters,5/17/2000 10:12,RT-CGM
+171,227,F,43,White,Not Hispanic or Latino,165.1,78,7.8,Pump,0,5,Subject,Bachelors,5/17/2000 11:43,Control
+172,187,M,42,White,Not Hispanic or Latino,172.7,88,37.5,Pump,0,10,Subject,Bachelors,5/21/2000 13:25,RT-CGM
+173,203,M,18,White,Not Hispanic or Latino,180,82.9,15.6,Pump,0,4,Subject,12,5/19/2000 9:47,RT-CGM
+174,103,M,12,White,Not Hispanic or Latino,149,35.1,10.1,Pump,0,10,Mother,Masters,5/18/2000 9:33,RT-CGM
+175,191,M,14,White,Not Hispanic or Latino,168.8,91.1,13.3,Pump,0,6,Father,Masters,5/18/2000 13:41,RT-CGM
+177,40,F,11,Unknown/not reported,Hispanic or Latino,152.2,43.4,6.3,Pump,0,6,Mother,12,5/21/2000 17:24,RT-CGM
+178,491,F,37,Black/African American,Not Hispanic or Latino,158.6,66.4,29.9,Pump,0,6,Subject,12,5/20/2000 10:40,Control
+179,33,F,21,White,Not Hispanic or Latino,172,73.9,14.1,Pump,1,5,Subject,Bachelors,5/20/2000 10:51,Control
+181,251,F,9,White,Not Hispanic or Latino,145,35.4,7.7,Pump,0,5,Mother,Bachelors,5/20/2000 14:21,RT-CGM
+182,273,M,23,More than one race,Not Hispanic or Latino,183,91.2,9.1,Pump,1,6,Subject,Bachelors,5/27/2000 10:53,RT-CGM
+184,342,F,16,White,Hispanic or Latino,164,57.6,1.4,Injections,0,4,Mother,Associates,5/26/2000 15:54,RT-CGM
+185,18,M,12,Unknown/not reported,Not Hispanic or Latino,155.1,41.5,6.3,Pump,0,8,Mother,Masters,5/20/2000 17:09,Control
+186,261,F,11,White,Not Hispanic or Latino,151.9,43.1,6.6,Pump,0,10,Mother,Bachelors,5/24/2000 14:13,Control
+187,118,M,14,White,Not Hispanic or Latino,173.1,59.1,7.4,Pump,0,4,Mother,Masters,5/24/2000 11:52,Control
+188,60,M,9,White,Not Hispanic or Latino,131.4,30.7,6.5,Pump,2,6,Mother,Bachelors,5/26/2000 11:10,RT-CGM
+189,172,M,55,White,Unknown/not reported,190.5,77,8.6,Pump,0,8,Subject,Professional,5/25/2000 9:43,Control
+190,80,F,60,White,Not Hispanic or Latino,162.6,62.6,35.1,Pump,0,12,Subject,Professional,5/24/2000 9:29,RT-CGM
+191,136,M,14,White,Not Hispanic or Latino,168.1,63,9.2,Pump,0,3,Mother,Bachelors,5/24/2000 16:06,Control
+195,9,F,18,White,Not Hispanic or Latino,166.1,69.9,7,Pump,0,3,Subject,12,5/27/2000 10:24,Control
+196,57,M,13,More than one race,Not Hispanic or Latino,158.9,51,8.6,Pump,0,6,Mother,Bachelors,5/28/2000 10:05,RT-CGM
+197,313,M,21,White,Not Hispanic or Latino,173.7,65.2,6.5,Injections,0,4,Subject,12,6/3/2000 10:56,RT-CGM
+198,119,F,15,White,Not Hispanic or Latino,166,65,11.3,Injections,0,6,Mother,Professional,5/28/2000 15:57,RT-CGM
+199,112,F,15,White,Not Hispanic or Latino,167.1,72.7,6.7,Pump,0,5,Mother,Bachelors,6/2/2000 15:01,Control
+200,146,F,15,White,Not Hispanic or Latino,170.9,92.5,7.9,Pump,0,4,Mother,Professional,6/3/2000 11:45,Control
+201,115,M,62,White,Not Hispanic or Latino,171.4,97.3,59.5,Pump,1,11,Subject,Associates,6/2/2000 12:44,RT-CGM
+202,444,M,49,White,Unknown/not reported,179.1,94.8,30.9,Pump,0,5,Spouse,Masters,5/31/2000 10:52,RT-CGM
+203,62,F,41,White,Not Hispanic or Latino,168.1,79.1,22.5,Pump,0,8,Subject,Bachelors,6/2/2000 10:42,RT-CGM
+204,430,M,16,White,Not Hispanic or Latino,168.9,57.3,12.9,Pump,0,4,Father,Associates,6/4/2000 9:53,Control
+205,295,M,8,White,Not Hispanic or Latino,128.9,28.5,7.3,Pump,0,7,Father,Masters,6/2/2000 14:18,RT-CGM
+206,46,F,18,White,Not Hispanic or Latino,179.4,82.7,6.3,Injections,0,3,Subject,12,6/7/2000 16:54,RT-CGM
+207,7,F,14,White,Not Hispanic or Latino,157.3,48.1,7.8,Pump,0,10,Mother,Bachelors,6/2/2000 17:25,Control
+208,154,F,62,White,Not Hispanic or Latino,165,60,12,Pump,0,4,Subject,Bachelors,6/7/2000 9:45,RT-CGM
+209,371,F,16,White,Not Hispanic or Latino,165.7,59.1,3.3,Injections,0,10,Mother,Masters,6/15/2000 13:44,RT-CGM
+210,382,M,12,White,Not Hispanic or Latino,163.1,55,7.7,Pump,0,4,Father,Masters,6/3/2000 10:16,RT-CGM
+211,143,F,16,White,Not Hispanic or Latino,174.8,70.5,7,Pump,0,3,Father,Masters,6/7/2000 12:32,RT-CGM
+212,65,F,13,White,Not Hispanic or Latino,167,81.1,8.3,Pump,0,7,Mother,Bachelors,6/10/2000 13:31,RT-CGM
+213,236,F,27,White,Not Hispanic or Latino,167.6,80.3,24.1,Pump,0,4,Subject,Masters,6/3/2000 13:51,Control
+214,149,M,49,White,Not Hispanic or Latino,183,122.5,21.3,Pump,0,5,Subject,Bachelors,6/15/2000 8:41,Control
+215,259,F,36,White,Not Hispanic or Latino,149.9,79.5,31.4,Pump,0,4,Subject,Bachelors,6/8/2000 14:41,Control
+216,473,M,17,White,Not Hispanic or Latino,180.3,66,7.8,Pump,0,4,Mother,Bachelors,6/10/2000 15:44,RT-CGM
+217,478,F,23,White,Not Hispanic or Latino,157.5,70.7,11.5,Pump,0,8,Subject,Bachelors,6/8/2000 9:56,Control
+218,362,M,10,White,Not Hispanic or Latino,142,36,9.1,Pump,0,4,Mother,Bachelors,7/22/2000 8:49,RT-CGM
+219,108,M,42,White,Not Hispanic or Latino,176,80.9,27.5,Pump,0,15,Subject,Masters,6/15/2000 12:36,Control
+220,214,M,11,White,Not Hispanic or Latino,154.4,41.5,9.6,Pump,0,10,Mother,Bachelors,6/14/2000 15:16,RT-CGM
+221,181,M,17,More than one race,Not Hispanic or Latino,180,82.4,5.1,Injections,0,4,Mother,12,6/18/2000 13:13,RT-CGM
+222,271,F,11,White,Not Hispanic or Latino,160.9,51.8,5.5,Pump,0,6,Mother,Bachelors,6/29/2000 13:05,Control
+223,250,M,10,White,Not Hispanic or Latino,136.9,30.6,8.8,Injections,0,4,Mother,Bachelors,7/22/2000 10:19,RT-CGM
+224,147,F,10,White,Not Hispanic or Latino,147.1,40.5,1.5,Injections,0,6,Mother,Masters,7/28/2000 18:43,Control
+225,355,M,10,White,Not Hispanic or Latino,138.9,31.1,2,Pump,0,5,Mother,12,7/21/2000 11:29,RT-CGM
+226,445,F,45,White,Not Hispanic or Latino,160,51.7,5.2,Pump,0,4,Subject,Bachelors,6/17/2000 13:44,RT-CGM
+227,233,F,8,White,Not Hispanic or Latino,126.5,26.9,2,Pump,0,12,Mother,Associates,7/22/2000 17:41,RT-CGM
+228,1,F,36,White,Not Hispanic or Latino,165.5,80.8,29.8,Pump,0,10,Subject,Masters,8/6/2000 12:39,RT-CGM
+229,352,F,34,White,Not Hispanic or Latino,162.1,65.6,26.7,Pump,0,5,Subject,Masters,7/1/2000 18:12,Control
+230,84,F,9,White,Not Hispanic or Latino,138.4,38.5,6.8,Pump,0,5,Mother,Bachelors,7/26/2000 15:56,Control
+231,43,F,17,White,Not Hispanic or Latino,163.2,56.4,2.4,Injections,0,4,Mother,12,6/24/2000 14:59,RT-CGM
+232,380,F,13,White,Not Hispanic or Latino,161,60.1,9.5,Pump,0,4,Father,Bachelors,6/17/2000 14:48,Control
+233,288,M,15,White,Not Hispanic or Latino,167.7,53.8,8.5,Injections,0,3,Mother,Bachelors,8/4/2000 20:10,Control
+234,403,M,15,White,Not Hispanic or Latino,177.5,75.9,4.8,Pump,0,5,Father,Bachelors,6/21/2000 9:52,Control
+237,289,M,13,White,Not Hispanic or Latino,164.8,52.8,4,Pump,0,7,Mother,Bachelors,8/18/2000 11:34,RT-CGM
+238,97,M,10,Unknown/not reported,Hispanic or Latino,138.5,53.2,5.3,Pump,0,5,Mother,12,6/24/2000 9:54,RT-CGM
+239,237,F,12,White,Not Hispanic or Latino,144.5,36.7,7.2,Pump,0,7,Mother,Bachelors,6/25/2000 11:41,RT-CGM
+240,197,F,37,White,Not Hispanic or Latino,162.5,58.9,26.3,Pump,0,4,Subject,Masters,6/23/2000 9:56,RT-CGM
+241,177,M,44,White,Not Hispanic or Latino,177.8,90.7,31.5,Pump,0,4,Subject,Associates,6/28/2000 13:53,RT-CGM
+242,487,F,61,White,Not Hispanic or Latino,160,57.7,43.1,Pump,0,9,Subject,Bachelors,6/24/2000 14:26,Control
+244,357,F,13,White,Not Hispanic or Latino,166,46.5,6.1,Pump,0,10,Mother,Bachelors,8/4/2000 9:51,RT-CGM
+246,409,F,10,White,Not Hispanic or Latino,149.9,48.8,4,Pump,0,6,Mother,Bachelors,6/30/2000 10:40,Control
+247,90,F,17,White,Not Hispanic or Latino,169.1,61.6,8.3,Pump,0,13,Mother,Bachelors,6/28/2000 14:24,Control
+248,340,M,12,White,Not Hispanic or Latino,137.1,35,11.9,Pump,0,5,Mother,Masters,6/28/2000 13:37,Control
+249,396,F,38,White,Not Hispanic or Latino,175.2,88.6,17.5,Pump,0,4,Subject,Professional,6/29/2000 13:41,Control
+250,314,M,9,White,Not Hispanic or Latino,135.2,27.8,6.8,Injections,0,4,Mother,Associates,6/29/2000 15:51,RT-CGM
+251,440,F,20,American Indian/Alaskan Native,Not Hispanic or Latino,160,58.3,12.7,Injections,0,5,Mother,Bachelors,6/29/2000 16:38,RT-CGM
+252,425,F,24,White,Not Hispanic or Latino,175.3,65.9,15.6,Pump,0,4,Subject,Bachelors,7/1/2000 16:47,RT-CGM
+253,268,F,17,White,Not Hispanic or Latino,163.5,60.3,5.6,Pump,0,4,Mother,12,7/2/2000 9:44,RT-CGM
+255,438,M,44,White,Not Hispanic or Latino,169,102.3,12.4,Pump,0,4,Subject,Bachelors,7/2/2000 9:33,Control
+256,277,F,12,White,Not Hispanic or Latino,155.5,51.5,11.1,Pump,0,6,Father,Bachelors,7/5/2000 10:27,RT-CGM
+257,170,F,24,White,Unknown/not reported,170.2,68.5,9.4,Injections,0,6,Subject,Bachelors,7/7/2000 14:41,Control
+258,204,F,8,White,Not Hispanic or Latino,139.3,32.3,4.4,Pump,0,9,Father,Masters,7/8/2000 14:48,Control
+259,235,M,12,White,Not Hispanic or Latino,154.2,61.6,4.5,Injections,0,9,Mother,Masters,11/1/2000 17:21,RT-CGM
+260,222,F,12,White,Not Hispanic or Latino,153.2,37.1,7.3,Pump,0,10,Mother,Associates,7/7/2000 10:41,Control
+261,477,F,31,White,Not Hispanic or Latino,157,72,14,Pump,0,6,Subject,Masters,7/6/2000 13:42,RT-CGM
+262,335,F,14,White,Not Hispanic or Latino,160.8,59.4,7.3,Pump,0,5,Mother,Associates,7/6/2000 12:37,Control
+263,363,F,8,White,Not Hispanic or Latino,129,32,7,Pump,0,6,Mother,Masters,7/7/2000 13:12,RT-CGM
+264,133,M,37,White,Not Hispanic or Latino,175.3,75,28.3,Pump,0,6,Subject,Professional,7/9/2000 12:52,Control
+265,356,M,8,White,Not Hispanic or Latino,136.2,30.4,1.7,Injections,0,6,Father,Bachelors,7/7/2000 16:44,Control
+268,443,M,62,White,Not Hispanic or Latino,182.8,73.9,55,Pump,0,8,Subject,Bachelors,7/12/2000 9:24,Control
+269,500,M,11,White,Not Hispanic or Latino,153,39,9.8,Pump,0,9,Mother,Bachelors,7/16/2000 9:22,Control
+270,475,F,60,White,Not Hispanic or Latino,164.5,66,12.9,Pump,0,10,Subject,Bachelors,7/12/2000 14:06,Control
+271,120,F,8,White,Not Hispanic or Latino,130.6,31.8,5.3,Pump,0,4,Mother,Bachelors,7/14/2000 13:56,RT-CGM
+272,485,F,16,White,Not Hispanic or Latino,167.9,59.8,2.3,Injections,0,4,Mother,Masters,7/15/2000 13:40,Control
+273,248,M,12,White,Not Hispanic or Latino,149.7,45.7,5.7,Injections,0,7,Father,Bachelors,7/30/2000 14:09,RT-CGM
+274,244,M,10,White,Not Hispanic or Latino,148.3,46.8,2.8,Pump,0,10,Father,Associates,7/16/2000 14:38,RT-CGM
+275,113,F,14,White,Not Hispanic or Latino,161.4,49,4.3,Pump,0,5,Mother,Bachelors,7/15/2000 17:16,Control
+276,137,F,30,White,Not Hispanic or Latino,163,63.6,8.2,Pump,0,4,Subject,Bachelors,7/14/2000 14:02,RT-CGM
+277,13,F,58,White,Not Hispanic or Latino,159.4,60,46,Pump,0,5,Subject,Professional,7/22/2000 13:17,Control
+279,275,F,31,White,Unknown/not reported,174,70.1,14.6,Pump,0,5,Subject,Bachelors,7/19/2000 9:34,RT-CGM
+280,209,M,8,White,Not Hispanic or Latino,125.6,30,1.5,Pump,0,10,Father,Bachelors,7/23/2000 10:12,Control
+282,190,F,37,White,Not Hispanic or Latino,173,84,10.3,Pump,1,3,Subject,Masters,7/22/2000 10:01,Control
+283,142,F,14,White,Not Hispanic or Latino,157.1,63.5,5.2,Pump,0,9,Mother,Masters,7/29/2000 19:22,Control
+284,215,F,12,White,Not Hispanic or Latino,156,50.7,2.1,Pump,0,8,Mother,Bachelors,7/22/2000 10:08,RT-CGM
+285,499,F,18,White,Not Hispanic or Latino,164.7,64.6,3.5,Pump,0,6,Mother,Bachelors,7/26/2000 15:12,RT-CGM
+286,427,F,37,White,Not Hispanic or Latino,167.6,64.5,26.5,Pump,0,7,Subject,Masters,7/21/2000 14:23,Control
+287,63,F,47,White,Not Hispanic or Latino,168,65.5,38.2,Pump,0,6,Subject,Bachelors,7/22/2000 13:30,RT-CGM
+288,420,F,10,White,Not Hispanic or Latino,142.6,59.1,4.7,Pump,1,6,Mother,Associates,9/9/2000 9:23,RT-CGM
+289,213,M,17,White,Not Hispanic or Latino,178.5,66,4.7,Injections,0,4,Mother,Associates,7/27/2000 17:14,Control
+290,463,M,33,White,Not Hispanic or Latino,171.5,72.8,30.8,Pump,0,4,Subject,Bachelors,7/21/2000 12:49,Control
+291,231,M,29,White,Not Hispanic or Latino,178.4,83.1,18,Pump,0,4,Subject,Professional,7/26/2000 12:32,RT-CGM
+292,383,M,59,White,Not Hispanic or Latino,179,97.6,34.1,Pump,0,8,Subject,Masters,7/23/2000 12:10,Control
+293,83,F,47,White,Unknown/not reported,148.6,49.4,2,Pump,0,10,Subject,Bachelors,7/29/2000 11:04,RT-CGM
+294,361,F,43,White,Not Hispanic or Latino,173,111.4,22.1,Pump,0,4,Subject,Masters,7/26/2000 9:31,RT-CGM
+295,41,F,53,White,Not Hispanic or Latino,160,63.9,38.6,Pump,0,10,Subject,Bachelors,8/2/2000 14:41,RT-CGM
+296,304,M,8,White,Not Hispanic or Latino,127.3,28.8,4.8,Injections,0,7,Mother,Professional,7/27/2000 17:41,RT-CGM
+297,469,M,54,White,Not Hispanic or Latino,185.5,87,16.9,Pump,0,5,Subject,Masters,8/3/2000 15:29,RT-CGM
+298,276,F,14,White,Not Hispanic or Latino,162.9,67.7,2.8,Injections,0,4,Mother,12,8/4/2000 17:08,Control
+299,264,F,10,White,Not Hispanic or Latino,143.9,37.3,5.7,Pump,0,10,Mother,Bachelors,7/28/2000 14:00,Control
+300,127,F,29,White,Not Hispanic or Latino,175.2,71.7,21.8,Injections,0,6,Subject,Masters,7/28/2000 9:13,RT-CGM
+301,279,F,11,White,Not Hispanic or Latino,148.7,33.4,8.8,Pump,0,10,Mother,Bachelors,7/28/2000 10:19,RT-CGM
+302,145,F,24,White,Not Hispanic or Latino,172,62,12.7,Pump,0,7,Subject,Bachelors,7/29/2000 10:53,Control
+303,326,M,21,White,Not Hispanic or Latino,190.5,95.2,7.8,Injections,0,4,Mother,12,7/30/2000 12:37,RT-CGM
+304,128,F,43,White,Not Hispanic or Latino,165.5,68.2,20.8,Pump,0,4,Subject,Bachelors,7/29/2000 12:29,RT-CGM
+305,353,M,23,White,Not Hispanic or Latino,170,80,18.7,Pump,0,5,Subject,Bachelors,8/4/2000 16:41,RT-CGM
+306,324,F,55,White,Not Hispanic or Latino,137.1,46.7,37.5,Pump,0,10,Subject,Masters,7/23/2000 11:01,Control
+307,69,M,15,White,Not Hispanic or Latino,169.3,60.6,1.3,Injections,0,5,Mother,Bachelors,8/2/2000 11:55,RT-CGM
+308,107,M,31,White,Not Hispanic or Latino,173,75,12.1,Pump,0,4,Subject,Masters,8/2/2000 14:51,RT-CGM
+309,338,M,11,White,Not Hispanic or Latino,140,31.2,10.6,Injections,0,10,Mother,Masters,8/11/2000 14:38,Control
+310,384,F,10,Unknown/not reported,Not Hispanic or Latino,135.4,27.4,7,Pump,0,4,Mother,Masters,8/6/2000 14:56,RT-CGM
+311,431,M,53,White,Not Hispanic or Latino,175,79,39,Pump,2,4,Subject,Masters,8/6/2000 12:30,RT-CGM
+312,44,M,12,White,Not Hispanic or Latino,158.6,63.9,1,Pump,0,7,Mother,Associates,8/6/2000 16:14,Control
+313,462,M,12,White,Not Hispanic or Latino,161.5,44.9,11.1,Pump,0,6,Mother,12,8/3/2000 17:41,RT-CGM
+314,174,M,25,White,Not Hispanic or Latino,183,61,15.5,Pump,0,5,Subject,Bachelors,8/6/2000 9:42,Control
+315,32,M,16,White,Not Hispanic or Latino,186.5,87.1,12.8,Pump,0,6,Mother,Professional,8/4/2000 17:58,Control
+316,290,F,41,White,Not Hispanic or Latino,168,68,28.2,Pump,0,8,Subject,Bachelors,8/11/2000 15:10,Control
+317,465,F,9,White,Not Hispanic or Latino,141,36,4,Pump,0,8,Mother,Professional,8/10/2000 15:48,RT-CGM
+318,58,F,15,White,Not Hispanic or Latino,157.6,49.2,4.6,Injections,0,4,Father,12,8/10/2000 16:37,Control
+319,16,F,15,White,Not Hispanic or Latino,164.7,54.2,9.7,Injections,0,5,Mother,12,8/10/2000 15:33,RT-CGM
+320,86,M,43,White,Not Hispanic or Latino,193,86.4,35.8,Pump,0,11,Subject,Professional,8/5/2000 13:17,RT-CGM
+321,323,M,20,White,Not Hispanic or Latino,182.3,89,8.8,Injections,0,8,Subject,12,8/31/2000 15:15,Control
+323,253,F,17,White,Not Hispanic or Latino,167,68.7,9.2,Pump,0,3,Mother,Bachelors,8/10/2000 8:59,Control
+324,111,F,18,White,Not Hispanic or Latino,173.1,69.4,13,Injections,0,1,Mother,Bachelors,8/12/2000 15:25,Control
+325,245,F,24,White,Not Hispanic or Latino,181.4,99.8,16.8,Pump,0,9,Subject,Masters,8/11/2000 17:39,RT-CGM
+326,400,M,43,White,Not Hispanic or Latino,172.7,74,24.3,Pump,1,10,Subject,Masters,8/12/2000 9:50,Control
+327,163,F,33,White,Not Hispanic or Latino,173.9,85.5,10.6,Pump,>3,10,Subject,Masters,8/26/2000 11:40,RT-CGM
+328,230,F,39,White,Not Hispanic or Latino,165,50,19.2,Pump,0,7,Subject,Bachelors,8/16/2000 10:29,Control
+329,206,F,39,White,Not Hispanic or Latino,167.6,60,26.8,Pump,0,10,Subject,Bachelors,8/13/2000 13:40,Control
+330,114,M,35,White,Not Hispanic or Latino,167.6,72.2,23.6,Pump,2,4,Subject,Bachelors,8/12/2000 12:29,RT-CGM
+331,399,M,42,White,Not Hispanic or Latino,190.5,96.4,19.1,Pump,0,3,Subject,Professional,8/12/2000 13:43,Control
+334,31,F,22,White,Not Hispanic or Latino,167.3,73.9,19.8,Pump,0,3,Subject,Bachelors,8/16/2000 14:30,Control
+335,158,M,25,White,Not Hispanic or Latino,182.3,97.1,18.2,Pump,0,4,Subject,Bachelors,9/7/2000 19:55,RT-CGM
+336,432,F,15,White,Not Hispanic or Latino,160,71.4,14,Pump,0,6,Mother,Masters,8/12/2000 19:53,RT-CGM
+337,82,F,54,White,Not Hispanic or Latino,162,53.3,11.3,Pump,0,10,Subject,Masters,8/17/2000 13:48,RT-CGM
+338,39,F,49,Black/African American,Not Hispanic or Latino,172.7,64.4,13.6,Pump,0,6,Subject,Bachelors,8/17/2000 10:05,Control
+339,42,F,41,White,Unknown/not reported,154.9,55.1,32.1,Pump,0,1,Subject,Bachelors,8/18/2000 11:34,RT-CGM
+340,331,F,43,White,Not Hispanic or Latino,170.2,77.3,30.2,Pump,0,6,Subject,Bachelors,8/19/2000 13:37,RT-CGM
+341,495,F,43,White,Not Hispanic or Latino,168.5,62,17,Pump,0,6,Subject,Associates,9/1/2000 13:23,Control
+342,436,F,13,Black/African American,Not Hispanic or Latino,160.6,74.2,1.7,Injections,1,5,Mother,Masters,8/27/2000 14:54,RT-CGM
+343,287,M,42,White,Not Hispanic or Latino,172.7,78.9,31.4,Injections,1,6,Subject,Bachelors,8/27/2000 14:52,Control
+344,252,M,21,White,Not Hispanic or Latino,191.5,91.2,6.5,Pump,0,3,Mother,Professional,8/20/2000 11:17,RT-CGM
+345,472,F,18,White,Not Hispanic or Latino,166.4,59,17.8,Pump,0,10,Subject,12,8/24/2000 13:26,RT-CGM
+346,218,F,38,White,Not Hispanic or Latino,164,68,31.1,Injections,0,6,Subject,Bachelors,8/30/2000 15:28,Control
+347,100,F,16,White,Not Hispanic or Latino,154.9,68.9,3.4,Pump,0,4,Father,Professional,8/20/2000 14:52,Control
+348,24,M,12,White,Hispanic or Latino,142,35.6,3.3,Injections,0,7,Mother,Associates,8/19/2000 10:37,Control
+349,20,F,8,White,Not Hispanic or Latino,139.9,32.9,2,Injections,0,10,Father,Bachelors,9/21/2000 10:10,Control
+350,391,M,41,White,Hispanic or Latino,182,113.6,22,Injections,0,3,Subject,Bachelors,9/6/2000 9:03,Control
+351,81,M,13,White,Not Hispanic or Latino,157.1,47.3,10.9,Injections,0,4,Mother,Associates,8/24/2000 16:53,RT-CGM
+352,216,M,29,White,Not Hispanic or Latino,182.3,97.3,17.4,Pump,0,4,Subject,Bachelors,8/26/2000 14:02,Control
+353,8,M,8,White,Not Hispanic or Latino,136.4,28.8,6.2,Pump,0,7,Mother,Bachelors,8/26/2000 14:44,RT-CGM
+354,411,M,8,White,Not Hispanic or Latino,137.7,33.8,2,Pump,0,6,Mother,Bachelors,8/25/2000 15:08,Control
+355,15,F,17,White,Not Hispanic or Latino,164.3,60.2,1,Injections,0,6,Mother,Professional,8/26/2000 17:09,Control
+356,241,F,24,White,Not Hispanic or Latino,166.1,68.5,12.7,Pump,0,4,Subject,Bachelors,8/23/2000 12:52,RT-CGM
+357,176,M,28,White,Not Hispanic or Latino,188,84.5,13.1,Pump,0,4,Subject,Bachelors,8/27/2000 15:02,Control
+358,262,M,28,White,Not Hispanic or Latino,173.2,74.5,11.3,Pump,0,8,Subject,Bachelors,8/31/2000 13:38,RT-CGM
+359,51,M,10,White,Not Hispanic or Latino,154.7,46.3,1.8,Injections,0,5,Father,Bachelors,8/20/2000 17:53,Control
+360,263,M,58,Asian,Unknown/not reported,182.9,93.5,14,Pump,0,7,Subject,Associates,8/31/2000 11:47,Control
+361,73,M,41,White,Not Hispanic or Latino,188,87.7,5.7,Injections,0,3,Subject,Masters,9/1/2000 13:17,RT-CGM
+362,121,F,17,White,Not Hispanic or Latino,167,63.2,6.6,Pump,0,6,Mother,Bachelors,9/1/2000 9:57,Control
+363,266,F,29,White,Not Hispanic or Latino,167.6,79.8,7.8,Injections,0,7,Subject,Masters,9/7/2000 9:38,RT-CGM
+365,29,F,49,White,Not Hispanic or Latino,165,104.5,20.8,Pump,0,3,Subject,Associates,8/31/2000 10:34,Control
+366,138,M,16,White,Not Hispanic or Latino,168.2,70.3,3.9,Pump,0,4,Mother,Bachelors,9/1/2000 10:08,Control
+367,451,F,19,White,Not Hispanic or Latino,164.3,80.9,12.3,Pump,0,3,Mother,12,9/6/2000 13:52,RT-CGM
+368,165,F,29,White,Not Hispanic or Latino,169,81,20.2,Pump,0,5,Mother,Masters,9/2/2000 10:14,RT-CGM
+369,52,F,17,White,Not Hispanic or Latino,170.4,52.7,6.3,Pump,0,5,Mother,Masters,9/2/2000 14:23,RT-CGM
+370,123,F,19,White,Not Hispanic or Latino,168.5,57.6,8.2,Pump,0,7,Subject,Associates,9/3/2000 12:16,Control
+371,35,F,41,White,Unknown/not reported,162.6,64.6,10.3,Pump,0,6,Subject,Masters,9/6/2000 10:42,Control
+372,358,M,18,White,Not Hispanic or Latino,186,87.6,5.8,Injections,0,4,Mother,Professional,9/16/2000 13:27,Control
+373,28,M,41,White,Not Hispanic or Latino,187.9,85.7,13.8,Pump,0,10,Subject,Bachelors,9/8/2000 9:27,Control
+374,96,M,27,White,Not Hispanic or Latino,174.6,75,5.5,Pump,0,9,Subject,Bachelors,9/3/2000 12:38,RT-CGM
+375,448,F,31,White,Not Hispanic or Latino,180,75,13.8,Pump,0,8,Subject,Professional,9/23/2000 8:54,RT-CGM
+376,322,F,26,White,Not Hispanic or Latino,157.4,69.4,22.3,Pump,0,4,Subject,Masters,9/9/2000 11:28,RT-CGM
+377,410,M,16,White,Not Hispanic or Latino,180.5,72.4,5.5,Pump,0,7,Mother,Masters,9/13/2000 13:04,Control
+379,5,F,65,White,Not Hispanic or Latino,169,73,17.4,Pump,0,3,Subject,Associates,9/10/2000 10:58,RT-CGM
+380,336,F,40,White,Not Hispanic or Latino,168,72.5,33.1,Pump,0,8,Subject,Masters,9/21/2000 17:52,RT-CGM
+381,296,M,11,White,Not Hispanic or Latino,149.5,50.4,6.3,Pump,0,4,Mother,Masters,9/10/2000 13:43,RT-CGM
+382,175,F,45,White,Not Hispanic or Latino,165.5,61.7,28.5,Pump,0,16,Subject,Bachelors,9/10/2000 13:02,Control
+383,284,M,37,White,Not Hispanic or Latino,172.5,70.6,32,Pump,0,6,Subject,Masters,9/7/2000 12:40,RT-CGM
+384,377,F,47,White,Not Hispanic or Latino,169.2,59.1,29.5,Injections,>3,15,Subject,Bachelors,9/16/2000 13:20,Control
+385,424,F,39,White,Not Hispanic or Latino,163,61.4,23.7,Pump,0,6,Subject,Associates,9/20/2000 9:03,Control
+386,269,M,30,White,Not Hispanic or Latino,177.6,79.3,3.4,Injections,1,4,Subject,Bachelors,9/14/2000 12:06,RT-CGM
+387,497,M,16,White,Not Hispanic or Latino,182.4,94.6,7.3,Pump,0,6,Mother,Bachelors,9/14/2000 15:31,Control
+389,178,M,8,White,Not Hispanic or Latino,122,37.7,2.2,Pump,2,5,Father,Bachelors,9/15/2000 14:10,Control
+390,390,F,44,White,Not Hispanic or Latino,163.8,62.1,34.9,Pump,0,10,Subject,Bachelors,9/16/2000 11:48,RT-CGM
+391,199,F,21,White,Not Hispanic or Latino,157,54.5,10.7,Pump,0,4,Subject,Associates,9/17/2000 14:01,RT-CGM
+392,317,F,22,White,Not Hispanic or Latino,169.4,61.5,4.2,Injections,0,4,Subject,Bachelors,9/21/2000 17:46,Control
+393,17,F,17,White,Not Hispanic or Latino,168.2,58.9,8.3,Pump,0,13,Mother,Bachelors,9/16/2000 16:55,Control
+394,294,M,15,White,Not Hispanic or Latino,172.4,86.2,1.8,Pump,0,8,Mother,12,9/17/2000 14:29,RT-CGM
+395,168,F,25,White,Not Hispanic or Latino,171.8,108.5,14.8,Pump,0,5,Subject,Associates,9/20/2000 16:01,RT-CGM
+396,439,F,9,White,Not Hispanic or Latino,145.5,34.4,1.4,Pump,0,8,Mother,Bachelors,9/21/2000 13:01,Control
+397,489,F,15,Native Hawaiian/Other Pacific Islander,Not Hispanic or Latino,163.2,66.2,7.3,Injections,0,6,Mother,12,10/1/2000 16:15,Control
+398,435,M,57,White,Unknown/not reported,172.7,85,46.3,Pump,0,7,Subject,Bachelors,9/28/2000 14:46,Control
+399,364,M,17,White,Not Hispanic or Latino,164.9,66.7,9.4,Injections,0,4,Mother,Masters,9/22/2000 19:00,RT-CGM
+400,152,M,26,White,Not Hispanic or Latino,182.8,97.9,16.8,Pump,0,4,Subject,Bachelors,9/20/2000 12:25,RT-CGM
+401,155,F,50,White,Not Hispanic or Latino,172.7,67,26.9,Pump,0,8,Subject,Associates,9/24/2000 14:37,Control
+402,135,F,18,White,Not Hispanic or Latino,169.3,77.6,6.4,Pump,0,4,Mother,Associates,9/22/2000 18:26,Control
+403,503,F,55,White,Not Hispanic or Latino,177,72.7,32.4,Pump,0,5,Subject,Masters,9/23/2000 12:56,RT-CGM
+404,416,F,41,White,Not Hispanic or Latino,166,78,25.3,Injections,>3,20,Subject,Masters,10/12/2000 14:14,Control
+405,208,M,45,White,Not Hispanic or Latino,179.1,77,30.5,Pump,1,6,Subject,Bachelors,9/23/2000 13:05,Control
+406,398,F,58,White,Not Hispanic or Latino,171.5,70.5,35.1,Pump,0,10,Subject,Professional,9/23/2000 17:33,Control
+407,447,F,31,White,Not Hispanic or Latino,183.6,72.3,15.5,Pump,0,3,Subject,Bachelors,9/27/2000 16:32,Control
+408,27,M,20,White,Not Hispanic or Latino,171.2,79.7,2.1,Pump,1,7,Subject,12,10/8/2000 13:24,Control
+409,388,M,8,White,Not Hispanic or Latino,134,32.6,6.8,Pump,0,7,Mother,Masters,9/27/2000 14:32,Control
+410,413,M,22,White,Not Hispanic or Latino,179.8,88.6,11.3,Injections,0,5,Subject,Bachelors,9/29/2000 10:31,RT-CGM
+411,479,M,12,White,Not Hispanic or Latino,155.4,54.2,5.3,Pump,0,5,Mother,Masters,10/7/2000 9:39,Control
+412,298,F,33,White,Not Hispanic or Latino,158,56.1,20,Pump,0,6,Subject,Associates,9/28/2000 14:32,RT-CGM
+413,404,M,24,White,Not Hispanic or Latino,188,94,14.9,Pump,0,10,Subject,Masters,10/1/2000 13:33,RT-CGM
+414,91,F,17,White,Not Hispanic or Latino,165.2,81.7,6.7,Pump,0,4,Mother,Associates,9/29/2000 13:56,RT-CGM
+415,2,M,16,White,Not Hispanic or Latino,183.5,85.4,7.8,Pump,0,2,Mother,Bachelors,10/4/2000 12:02,Control
+416,79,F,15,White,Not Hispanic or Latino,166.8,49.2,8.9,Pump,0,4,Father,Masters,9/30/2000 18:32,RT-CGM
+417,484,F,42,White,Hispanic or Latino,163.5,56.2,23.5,Injections,0,9,Subject,Professional,10/8/2000 14:53,Control
+418,301,M,72,White,Not Hispanic or Latino,172.7,71.4,17.4,Injections,0,5,Subject,Associates,10/1/2000 13:21,Control
+419,437,F,50,White,Not Hispanic or Latino,171.5,53,1.9,Injections,0,8,Subject,Associates,10/6/2000 11:56,Control
+420,38,M,16,White,Not Hispanic or Latino,188.8,70.4,4.2,Pump,0,4,Mother,Bachelors,10/1/2000 17:13,RT-CGM
+421,55,M,34,More than one race,Not Hispanic or Latino,185.3,71.6,10.3,Pump,0,9,Subject,Masters,10/5/2000 13:15,Control
+422,140,M,59,More than one race,Hispanic or Latino,165.1,65.3,49.9,Pump,0,4,Subject,12,10/6/2000 15:55,Control
+423,217,M,26,White,Not Hispanic or Latino,186.1,70.2,7.7,Injections,0,4,Subject,Bachelors,10/6/2000 12:13,Control
+424,378,F,18,White,Not Hispanic or Latino,159.7,60,6.1,Injections,0,3,Subject,11,10/7/2000 16:04,RT-CGM
+425,19,F,23,White,Not Hispanic or Latino,163.3,74.4,13.5,Pump,0,3,Spouse,Associates,10/8/2000 15:34,RT-CGM
+426,193,F,28,White,Not Hispanic or Latino,160,56,27.3,Injections,0,3,Subject,Associates,10/26/2000 16:15,RT-CGM
+427,315,F,14,White,Not Hispanic or Latino,162.8,74.2,2.4,Pump,0,6,Father,Bachelors,10/7/2000 14:09,RT-CGM
+428,454,F,58,White,Not Hispanic or Latino,176.5,71.8,13.1,Pump,0,4,Subject,Associates,10/11/2000 16:16,Control
+429,401,M,42,White,Not Hispanic or Latino,177.8,85,20.3,Pump,0,8,Subject,Professional,10/8/2000 8:47,RT-CGM
+430,89,F,17,White,Not Hispanic or Latino,163.3,68.7,8.3,Pump,1,6,Mother,12,10/7/2000 14:53,RT-CGM
+431,372,F,38,White,Not Hispanic or Latino,167.6,101.1,28.4,Pump,0,3,Subject,Bachelors,10/4/2000 13:08,RT-CGM
+432,423,F,16,White,Not Hispanic or Latino,158.1,51.6,4,Pump,0,4,Mother,Bachelors,10/8/2000 10:08,Control
+433,407,M,40,White,Not Hispanic or Latino,175.3,75.9,17.1,Injections,0,6,Subject,Bachelors,10/15/2000 12:50,Control
+434,167,M,43,White,Not Hispanic or Latino,170.2,77.9,38.3,Pump,1,6,Subject,Associates,10/21/2000 9:03,RT-CGM
+437,211,F,37,White,Not Hispanic or Latino,162.6,62.7,18.9,Pump,0,3,Subject,Bachelors,10/22/2000 13:52,RT-CGM
+438,283,F,37,White,Not Hispanic or Latino,160,57.3,25,Pump,>3,4,Subject,Masters,10/26/2000 13:58,RT-CGM
+439,351,M,13,White,Not Hispanic or Latino,165.1,53.3,3.3,Injections,0,4,Mother,Bachelors,10/22/2000 14:09,RT-CGM
+440,98,F,51,White,Not Hispanic or Latino,172.1,75.5,16.1,Injections,0,5,Subject,Bachelors,10/14/2000 12:56,RT-CGM
+441,422,F,21,Black/African American,Not Hispanic or Latino,155,50.9,15.7,Pump,0,7,Subject,Associates,10/13/2000 15:58,RT-CGM
+442,238,M,47,White,Not Hispanic or Latino,181.9,99.8,33.7,Injections,1,4,Subject,Associates,10/12/2000 13:32,RT-CGM
+443,426,M,17,White,Not Hispanic or Latino,175.1,66.7,3.6,Injections,0,3,Mother,Masters,10/15/2000 14:07,RT-CGM
+445,85,F,22,White,Not Hispanic or Latino,162.8,62.3,9.3,Pump,1,10,Subject,12,10/18/2000 11:36,RT-CGM
+446,200,F,8,White,Not Hispanic or Latino,136.5,33.2,1.9,Pump,0,5,Father,Associates,11/3/2000 8:45,RT-CGM
+447,196,M,32,White,Not Hispanic or Latino,180,94,30.7,Pump,0,7,Subject,Masters,10/21/2000 17:21,Control
+448,156,F,64,White,Not Hispanic or Latino,158.5,62.7,43.4,Pump,0,6,Subject,Masters,10/21/2000 14:44,RT-CGM
+449,109,F,55,White,Not Hispanic or Latino,162,70.5,35.5,Injections,0,4,Subject,Bachelors,10/25/2000 15:43,Control
+450,418,M,15,White,Not Hispanic or Latino,177,57.3,11.3,Pump,0,9,Father,Bachelors,11/1/2000 10:05,Control
+451,368,M,29,White,Unknown/not reported,185.4,92.9,15.9,Pump,0,5,Subject,Bachelors,10/20/2000 15:35,Control
+452,429,M,15,White,Not Hispanic or Latino,182.9,90.8,7.7,Injections,0,5,Mother,Masters,10/26/2000 17:20,Control
+453,482,F,24,White,Not Hispanic or Latino,170.1,76.7,3.6,Pump,0,4,Subject,Bachelors,10/21/2000 16:39,Control
+454,105,F,16,White,Not Hispanic or Latino,163.9,67.8,4.8,Pump,0,6,Mother,Bachelors,10/26/2000 17:27,Control
+455,502,M,10,White,Not Hispanic or Latino,136.6,33.1,2.7,Pump,0,6,Father,Professional,11/9/2000 15:33,RT-CGM
+456,3,F,18,White,Not Hispanic or Latino,160.3,52.8,2.4,Injections,0,4,Mother,Masters,11/3/2000 16:12,Control
+457,53,F,16,White,Not Hispanic or Latino,165.1,73.7,9.4,Injections,0,5,Father,Bachelors,10/27/2000 10:39,Control
+458,308,F,46,White,Not Hispanic or Latino,160,85.1,23.6,Pump,0,6,Subject,Bachelors,10/26/2000 15:15,Control
+459,405,M,17,White,Hispanic or Latino,166.5,77.3,2.7,Pump,0,4,Father,12,10/26/2000 15:48,RT-CGM
+460,93,M,45,White,Not Hispanic or Latino,177.8,79.6,40.8,Pump,0,6,Subject,Associates,10/22/2000 13:49,RT-CGM
+461,26,F,62,White,Unknown/not reported,160,68.2,18,Pump,0,5,Subject,Masters,10/26/2000 13:56,Control
+462,306,M,52,White,Not Hispanic or Latino,183,81.8,30.9,Injections,0,7,Subject,Bachelors,10/20/2000 17:02,RT-CGM
+463,467,M,18,White,Not Hispanic or Latino,185.2,67.6,8.3,Injections,0,4,Subject,11,10/27/2000 16:57,Control
+464,247,M,16,Black/African American,Not Hispanic or Latino,172.5,67.2,13.5,Pump,1,5,Mother,Masters,11/3/2000 14:46,Control
+465,291,F,15,Black/African American,Not Hispanic or Latino,160.8,67.7,5.7,Injections,0,4,Mother,12,11/1/2000 17:09,RT-CGM
+466,49,M,29,White,Not Hispanic or Latino,186.7,107.4,24,Pump,0,1,Spouse,Bachelors,10/27/2000 14:04,RT-CGM
+467,144,M,38,White,Not Hispanic or Latino,181,98.4,20.4,Pump,1,7,Subject,Bachelors,11/2/2000 14:50,RT-CGM
+468,195,M,19,White,Not Hispanic or Latino,177.5,82.4,17.4,Injections,0,3,Subject,12,11/1/2000 18:42,RT-CGM
+469,300,F,21,White,Not Hispanic or Latino,162.5,62.5,13.9,Pump,0,4,Subject,12,11/3/2000 9:37,RT-CGM
+470,192,M,21,White,Not Hispanic or Latino,185.3,90.3,14.8,Injections,1,8,Subject,12,11/12/2000 10:01,RT-CGM
+471,466,F,17,White,Not Hispanic or Latino,183.3,75.3,4.9,Pump,0,7,Father,Bachelors,11/2/2000 18:26,RT-CGM
+472,486,F,43,White,Not Hispanic or Latino,165,59,21.7,Pump,0,5,Subject,Bachelors,11/1/2000 11:46,RT-CGM
+473,395,M,16,White,Not Hispanic or Latino,181.5,88.2,7.8,Pump,1,6,Father,Masters,11/2/2000 8:40,Control
+474,312,F,21,White,Not Hispanic or Latino,172.1,78.4,7.4,Injections,0,4,Mother,Masters,11/1/2000 12:18,Control
+475,34,M,48,White,Not Hispanic or Latino,173.5,72.7,45.2,Pump,0,7,Subject,Bachelors,11/2/2000 14:13,Control
+477,219,M,14,White,Not Hispanic or Latino,161,60.7,2.8,Pump,1,5,Mother,Masters,11/4/2000 8:50,Control
+478,99,M,17,White,Not Hispanic or Latino,166.4,52.2,10.6,Pump,0,4,Mother,Bachelors,11/3/2000 10:47,RT-CGM
+479,360,M,27,White,Not Hispanic or Latino,175.3,86.4,5,Pump,1,8,Subject,12,11/2/2000 13:48,RT-CGM
+480,293,F,44,White,Not Hispanic or Latino,170.1,73,35.2,Pump,0,4,Subject,Bachelors,11/8/2000 12:15,RT-CGM
+481,202,M,14,White,Not Hispanic or Latino,175.3,76.2,1.1,Pump,0,7,Mother,Bachelors,11/9/2000 8:43,RT-CGM
+482,260,F,45,White,Not Hispanic or Latino,163,67.6,23.3,Pump,0,5,Subject,Bachelors,11/3/2000 10:36,Control
+483,10,M,25,White,Not Hispanic or Latino,192.1,92.3,17,Injections,0,3,Subject,Bachelors,11/4/2000 9:19,RT-CGM
+484,64,M,47,White,Not Hispanic or Latino,183,100,31.8,Pump,0,5,Subject,Bachelors,11/11/2000 8:31,RT-CGM
+485,302,M,33,White,Not Hispanic or Latino,176.3,90.8,6.1,Pump,0,10,Subject,Bachelors,11/16/2000 12:58,RT-CGM
+486,173,M,18,More than one race,Hispanic or Latino,171.8,81.3,7.5,Injections,0,5,Subject,11,12/1/2000 15:27,Control
+487,286,F,13,More than one race,Hispanic or Latino,166.1,53.8,5.1,Pump,0,6,Mother,12,11/17/2000 19:05,RT-CGM
+488,394,F,8,White,Not Hispanic or Latino,129,28.9,6.8,Pump,0,8,Mother,Associates,11/18/2000 10:20,RT-CGM
+489,101,F,8,White,Not Hispanic or Latino,134.1,28.7,1.6,Pump,0,6,Mother,Bachelors,11/17/2000 13:48,Control
+490,61,M,35,White,Not Hispanic or Latino,183,88.9,4.2,Pump,0,8,Subject,Masters,11/17/2000 13:13,RT-CGM
+491,305,F,23,White,Not Hispanic or Latino,163.9,66.4,6.2,Injections,0,5,Subject,Bachelors,11/19/2000 13:36,RT-CGM
