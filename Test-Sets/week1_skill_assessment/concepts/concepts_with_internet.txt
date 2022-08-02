@@ -1,0 +1,138 @@
+Concepts Assessment
+
+##############################################################################################################################
+All of the concepts tested below are absolutely essential to (1) passing data science interviews, 
+(2) understanding foundations of more complex topics, and (3) success as a data scientist. Each of
+these topics are commonly asked about in both conceptual & code-based knowledge testing interviews
+for data scientist positions. 
+
+Responses do not need to be extensive. Explain where you feel it is necessary, but 
+simplified / general answers will suffice, unless the question is asking for a specific calculation or definition
+
+##############################################################################################################################
+QUESTIONS
+##############################################################################################################################
+
+1. What is the derivative of 10e^x2?
+    20e^x
+
+2. What is the *partial* derivative of X^2Y^3 with respect to X? 
+    2x*y^3
+
+3. What is the variance of the vector: [0,8,3,5,7,3,2,6,8,9,10,15]?
+    sample variance: 16.8
+
+4. A group of 10 foot surgery patients had a mean weight of 240 pounds. 
+The sample standard deviation was 25 pounds. Find a confidence interval for a sample 
+for the true mean weight of all foot surgery patients. Find a 95% CI.
+    224.50, 255.49
+
+5. Flipping a fair coin 3 times, which has a higher probability of occurring first (or neither)?
+    a. HTT
+    b. HTH
+
+    Same probability
+
+
+6. What is a p-value? How do you interpret the value?
+(Hint: the answer should include more than "statistical significance")
+    p-value is the likelihood that the results didn't occur by accident. p=0.05 means there's a 5% chance the observed results could have occured randomly
+
+7. What is the formula for Bayes Conditional probability? What does each component represent?
+    P(Xi | Yi) The probability of observing some event, X, given some other event, Y,
+
+8. What is the difference between an independent-sample vs paired-sample t-test? 
+Give an example set up where you'd use each
+    independent: you're testing two separate groups e.g. a test group and a control group
+    paired: you're testing the same group two different times e.g. before and after applying the treatment
+    
+9. Nathan makes 60% of his free-throw attempts. If he shoots 12 free throws, what is the probability that he makes exactly 10?
+(hint, use binomial distribution - feel free to use a python library, and paste code below if you do)
+    scipy: ans = binom.pmf(10, 12, 0.6)
+
+10. What is bootstrapping? How can bootsrtapping be used in the model development process?
+    Resampling with replacement. It can "assess the variability of a sample statistic". 
+    It makes sense theoretically, but I'm not sure when or why to use it for model development.
+
+11. What are the assumptions of linear regression?
+    linear relationship, multivariate normality, no multicollinearity, no auto-correlation, homoscedasticity
+
+
+12. Considering the development of an image classification model, what is a scenario / application 
+in which you would want to prioritize precision over recal (sensitivity)? What about recall over precision?
+    prioritze precision when you can't accept false negatives (disease/cancer identification)
+    prioritize recall when you don't want false negatives
+
+13. What calculations are required to be made at each split of a decision tree algorithm?
+    parent/child entropy, weighted entropy, information gain
+
+14. What parameter(s) is (are) randomized in a Random Forest classifier?
+    The features considered at each branch in the tree
+
+15. What is gradient boosting & why is it useful?
+    A technique that produces an ensemble model from other prediction models by minimizes a loss function
+
+16. In clustering algoriths like Kmeans, how do data points get assigned to clusters?
+    begin with random cluster centers. Assign each sample to the nearest cluster (euclidean distance or manhanttan distance i think)
+    recalculate the cluster centers once all the samples are labeled. repeat until the centers don't change position
+
+17. What are the steps involved in collaborative filtering? What is the difference betwen user- & item-based collaborative filtering?
+    Item based: recommend an item if the user has liked similar items
+    User based: recommend and item to a user if similar users have liked the item
+
+
+18. In the neural-network architecture described below (assume all layers to be dense - i.e. fully connected),
+fill in the missing array shapes:
+(Hint, neural networks typically follow: output = X.W + b)
+
+Input layer:
+    - Input shape: 3x1
+Single Hidden layer (2 nodes, tanh activation)
+    - Weights shape: 3x1 YOUR ANSWER HERE
+    - Bias_h shape: 3x1
+    - Activation function output shape: ## YOUR ANSWER HERE
+Final Output layer (2 nodes, sigmoid activation)
+    - Weights shape: 2x2
+    - Bias_o shape: 2x1
+    - Activation function output shape: ## YOUR ANSWER HERE
+
+
+19. Give one common use case / application for each of the following types of neural network frameworks
+    a. Convolutional Neural Network
+        Image classifier
+    b. Autoencoder
+        denoising
+    c. Long-short Term Memory (LSTM) Network
+        time-series prediction
+    d. Generative Adversarial Network (GAN)
+        image generation, enhancing
+
+
+20. If a model type that we are using is prone to *very* high bias, and the training/test accuracy are 95% & 90% respectively, 
+what is a reasonable validation (final hold-out) accuracy that we might expect when the final-hold out set is tested? 
+Given an example of a model-type that would exhibit this type of bias-variance behavior
+
+
+20. What are 3 different methods of dimensionality reduction?
+    principal component analysis, linear discriminant analysis, t-distribited stochastic neighbor embedding
+
+
+21. What is the difference between a relational & a non-relational database?
+    Relational: tables. Non-relational: documents, graphs, columnar, key-value
+
+22. What is a virtual machine? How do you create/access one?
+    Using softaware instead of hardware to run programs and deploy apps. Many ways to create/access I assume.
+    VMware is an industry leader i think, but i've used plenty of websites that set up a wondows OS playground
+    to practice various skills. 
+
+23. What is Spark? Why is it considered superior than its predecessor (HDFS/MapReduce)?
+    Spark: data processing engine that splits processing between different nodes. 
+    It uses RAM to cache and process data instead of a file system (like hadoop)
+
+24. What is an API? (is this is simple, help explain to someone who might not know what it is)
+    Allows to applications to talk to each other. Allows access to data through pre-defined "endpoints" (like an http request/query)
+
+25. What are advantages of of batch-processing ML predictions in production? What about a
+streaming framework? Are there better hybrid methods?
+    unsure about this one since I haven't worked in production 
+
