@@ -5,7 +5,7 @@ dir:assessment-day1. Then run the tests with the command "make test"
 '''
 import numpy as np
 import pandas as pd
-import collections
+from collections import Counter
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -22,14 +22,7 @@ def count_characters(string):
     Characters which with a count of 0 should not be included in the
     output dictionary.
     '''
-    ans = {}
-    for i in string:
-        if i not in ans:
-            ans[i] = 1
-        else:
-            ans[i] += 1
-
-    return ans
+    return Counter(string)
 
 
 	    
@@ -45,14 +38,8 @@ def invert_dictionary(d):
     the set of d's keys which shared the same value.
     e.g. {'a': 2, 'b': 4, 'c': 2} => {2: {'a', 'c'}, 4: {'b'}}
     '''
-    # I had to look up how to create and add to a set
-    ans = {}
-    for i in d.items():
-        if i[1] not in ans:
-            ans[i[1]] = set(i[0])
-        else:
-            ans[i[1]].add(i[0])     
-    return ans
+    
+    return {v: k for k, v in d.items()}
 
 
 
@@ -73,7 +60,7 @@ def word_count(filename):
     f = open(filename, 'r')
     data = f.read()
     lines = len(f.readlines())
-    words = len(data.split())
+    words = len(data.split(' '))
     chars = len(data)
 
     return (lines, words, chars)
@@ -110,32 +97,22 @@ def classifier_eval(preds,actual):
                 accuracy = 0.85
 
     '''
-    tp = 0
-    fp = 0
-    tn = 0
-    fn = 0
-
-    for i in range(len(preds)):
-        if preds[i]:
-            if actual[i]:
-                tp += 1
-            else:
-                fp += 1
-        else:
-            if actual[i]:
-                fn += 1
-            else:
-                tn += 1
+    preds = np.array(preds)
+    actual = np.array(actual)
+    tp = (preds==actual)&(actual==1)
+    fp = (preds!=actual)&(actual==0)
+    tn = (preds==actual)&(actual==0)
+    fn = (preds!=actual)&(actual==1)
     
-    recall = tp/(tp+fn)
-    precision = tp/(tp+fp)
-    accuracy = (tp + tn)/len(preds)
+    recall = np.round(tp/(tp+fn),2)
+    precision = np.round(tp/(tp+fp),2)
+    accuracy = np.round((tp + tn)/len(preds),2)
 
-    return (round(precision, 2), round(recall, 2), round(accuracy, 2))
+    return precision,recall,accuracy
 
 
 # Note: This one is very challenging & not particularly short (it's okay if you do not get this)
-def num_to_word_string(n):
+def num_to_word_string(number):
     '''
     INPUT: INTEGER
     OUTPUT: STRING 
@@ -150,7 +127,36 @@ def num_to_word_string(n):
     my_dict = {10:'ten', 11:'twenty'}
 
     pass
-    # Insert code here   
+    if number>=1 and number<=1000:
+        a = ['','one','two','three','four','five','six','seven','eight','nine','ten',
+         'eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen',
+         'eighteen','nineteen','twenty ','thirty ','fourty ','fifty ','sixty ','seventy ','eighty ','ninty ']
+        if number<=20:
+            if number%10==0: return a[number]
+            else: return a[number]
+        elif number<100:
+            b=number-20
+            r=b%10
+            b//=10
+            return a[20+b]+a[r]
+        elif number<1000:
+            if number%100==0:
+                b=number//100
+                return a[b]+' hundred'
+            else:
+                r=number%100
+                b=number//100
+                if r<=20:
+                    return a[b]+' hundred'+' and '+a[r]
+                else:
+                    r=r-20
+                    d=r//10
+                    r%=10
+                    return a[b]+' hundred'+' and '+a[20+d]+a[r]
+        elif number==1000:
+            return 'one thousand'
+        else:
+            return -1   
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -173,7 +179,7 @@ def cookie_jar(a, b):
     The cookie is chocolate.
     Return the probability that the cookie came from Jar A.
     '''
-    return 0.5 * a
+    return (a * 0.5)/a
 
 
 def mab_slots(reward_dict,episilon,seed,runs):
@@ -209,8 +215,16 @@ def mab_slots(reward_dict,episilon,seed,runs):
     '''
 
     np.random.seed(seed)
-    # Insert code here
-    pass
+    total_reward = 0
+    keys = list(reward_dict.keys())
+    run_dtns = np.random.random(size=runs)
+    for index,dtn in enumerate(run_dtns):
+        if dtn < episilon:
+            choice = np.random.choice(keys)
+            total_reward += reward_dict[choice][index]
+        else:
+            temp_rewards = [reward_dict[key][index] for key in keys]
+            total_reward += max(temp_rewards)
 
 
 # ---------------------------------------------------------------------------------------------------------
@@ -260,7 +274,7 @@ def data_frame_med(df, colA, win, min_val):
     values in the window required to compute the rolling sum
     '''
     # I don't think i've ever done this so I had to look this up
-    df['b'] = df[colA].rolling(win, min_periods=min_val).sum()
+    df['colB'] = df[colA].rolling(win, min_periods=min_val).sum()
 
 
 def data_frame_hard(df, colA, colB, function_x):
@@ -271,7 +285,7 @@ def data_frame_hard(df, colA, colB, function_x):
     Insert a column (colC) into the dataframe that maps function_x, which takes
     colA & colB as input.
     '''
-    df['c'] = df.apply(lambda x: function_x(x[colA], x[colB]), axis=1)
+    df['colC'] = df.apply(lambda x: function_x(x[colA], x[colB]), axis=1)
 
 
 
@@ -310,7 +324,7 @@ def markets_per_state():
     Return a SQL statement which gives the states and a count of the number of
     markets for each state which take WIC or WICcash.
     '''
-    return '''select state, sum(case when wic = 'Y' then 1 when wiccash = 'Y' then 1 else 0 end) as wictrue from farmersmarkets group by state;'''
+    return '''SELECT state, sum(case when wic = 'Y' then 1 when wiccash = 'Y' then 1 else 0 end) AS wictrue FROM farmersmarkets GROUP BY 1;'''
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
@@ -320,7 +334,7 @@ def state_population_gain():
     Return a SQL statement which gives the 10 states with the highest
     population gain from 2000 to 2010.
     '''
-    return '''SELECT state, (pop2010 - pop2000) as change FROM statepopulations ORDER BY change DESC LIMIT 10;'''
+    return '''SELECT state, (pop2010 - pop2000) AS change FROM statepopulations ORDER BY change DESC LIMIT 10;'''
     
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
@@ -347,7 +361,7 @@ def mad_cheese_markets():
     20+ markets selling cheese
     '''
 
-    return '''select state,county,count(distinct fmid) c from farmersmarkets where cheese = 'Y' group by 1 having c > 20 order by c desc limit 3;'''
+    return '''SELECT state,county,count(distinct fmid) c FROM farmersmarkets WHERE cheese = 'Y' GROUP BY 1 HAVING c > 20 ORDER BY c DESC LIMIT 3;'''
     # Your code should look like this:
     # return '''SELECT * FROM universities;''' 
 

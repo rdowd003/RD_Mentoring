@@ -13,28 +13,45 @@ simplified / general answers will suffice, unless the question is asking for a s
 QUESTIONS
 ##############################################################################################################################
 
-
-1.
-
-
-2.
+###
+1. What is the difference between a mutable and immutable data type in python? Give an example of each
 
 
-3.
-
-4.
-
-5.
-
-6.
-
-7.
+###
+2. Describe the difference between under- & overfitting models
 
 
-8. 
+###
+3. What types of scenarios are the following distributions typically applied in?
+Binomial:
+Geometric:
+Poisson:
+Exponential:
 
 
+###
+4. How are models scores? What are some metrics that can be used to determine the success of a model? 
+
+
+###
+5. What is regulariation? Describe the difference between L1 & L2 regularization
+
+
+###
+6. What is an ROC curve? What are the axes? How do you use an ROC curve to determine model success?
+
+
+###
+7. What are some common methods for processing text data prior to conducting NLP?
+
+
+###
+8. What is a term-frequency - inverse-document-frequency (tf-idf) matrix (related to NLP)?
+
+
+###
 9. How does one search for data in a non-relational database (i.e., no rows or columns)?
 
 
+###
 10. What is Docker? Why is it useful to data scientists? (hint, consider productionizing models)
