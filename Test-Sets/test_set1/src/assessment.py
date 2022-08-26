@@ -69,3 +69,54 @@ def linear_regression(X_train, y_train, X_test, y_test):
     score = r2_score(y_test,test_predicted)
 
     return ((model.coef_[1]),score)
+
+
+
+    # For each of these, your python function should return a string that is the
+# SQL statement which answers the question.  
+#
+# For example:
+#    
+#    return "SELECT * FROM farmersmarkets;"
+#
+# You may want to test your queries using sqlite3 or postgresql.  Both
+# databases - markets.sqlite (sqlite3) and markets.sql (postgreSQL) are in the
+# dsi-assessment-day1/data directory.  Testing your queries with sqlite3 or
+# postgresql is optional.  See the SQL instructions in the README.md if you
+# want to do this.
+#
+# There are two tables in the database with these columns:
+#
+# statepopulations: state, pop2010, pop2000
+#
+# farmersmarkets: FMID, MarketName, Website, Street, City,
+#    County, State, WIC, WICcash
+#    (plus other columns we don't care about for this exercise)
+#
+# Note: FMID is a unique id for the farmers market.  WIC is a boolean varaible
+# that indicates if the market accepts payments from the WIC government
+# program.   WICCash is another boolean for a slightly different program.
+# ---------------------------------------------------------------------------------------------------------
+
+def windsor_markets():
+    '''
+    Return a SQL statement which gives the number of unique markets owned by the "Windsor"
+    family (Hint: The Windsor name is in some of the columns)
+    '''
+    # Your code should look like this:
+    # return '''SELECT * FROM universities;'''
+
+    return '''SELECT count(distinct marketname) FROM farmersmarkets WHERE website like '%thewindsorfarmersmarket%';'''
+
+
+def decreased_pop_markets():
+    '''
+    Return a SQL statement which gives the number of unique markets owned by the "Windsor"
+    family (Hint: The Windsor name is in some of the columns)
+    '''
+    # Your code should look like this:
+    # return '''SELECT * FROM universities;'''
+
+    # NEED TO COMPLETE
+    return '''SELECT zip,COUNT(DISTINCT marketname) FROM farmersmarkets JOIN statepopulations USING(state) WHERE pop2010 < pop2000);
+49464|318;'''

@@ -32,26 +32,29 @@ Exponential:
 ###
 4. How are models scores? What are some metrics that can be used to determine the success of a model? 
 
-
 ###
-5. What is regulariation? Describe the difference between L1 & L2 regularization
-
-
-###
-6. What is an ROC curve? What are the axes? How do you use an ROC curve to determine model success?
+5. What is a method to handle an imbalanced dataset when doing classification?
 
 
 ###
-7. What are some common methods for processing text data prior to conducting NLP?
+6. What is regulariation? Describe the difference between L1 & L2 regularization
 
 
 ###
-8. What is a term-frequency - inverse-document-frequency (tf-idf) matrix (related to NLP)?
+7. What is an ROC curve? What are the axes? How do you use an ROC curve to determine model success?
 
 
 ###
-9. How does one search for data in a non-relational database (i.e., no rows or columns)?
+8. What are some common methods for processing text data prior to conducting NLP?
 
 
 ###
-10. What is Docker? Why is it useful to data scientists? (hint, consider productionizing models)
+9. What is a term-frequency - inverse-document-frequency (tf-idf) matrix (related to NLP)?
+
+
+###
+10. How does one search for data in a non-relational database (i.e., no rows or columns)?
+
+
+###
+11. What is Docker? Why is it useful to data scientists? (hint, consider productionizing models)
