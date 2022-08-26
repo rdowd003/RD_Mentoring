@@ -1,0 +1,40 @@
+Concepts Assessment
+
+##############################################################################################################################
+All of the concepts tested below are absolutely essential to (1) passing data science interviews, 
+(2) understanding foundations of more complex topics, and (3) success as a data scientist. Each of
+these topics are commonly asked about in both conceptual & code-based knowledge testing interviews
+for data scientist positions. 
+
+Responses do not need to be extensive. Explain where you feel it is necessary, but 
+simplified / general answers will suffice, unless the question is asking for a specific calculation or definition
+
+##############################################################################################################################
+QUESTIONS
+##############################################################################################################################
+
+
+1.
+
+
+2.
+
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+
+8. 
+
+
+9. How does one search for data in a non-relational database (i.e., no rows or columns)?
+
+
+10. What is Docker? Why is it useful to data scientists? (hint, consider productionizing models)

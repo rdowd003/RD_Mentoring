@@ -1,0 +1,216 @@
+Concepts Assessment - SOLUTIONS
+
+##############################################################################################################################
+All of the concepts tested below are absolutely essential to (1) passing data science interviews, 
+(2) understanding foundations of more complex topics, and (3) success as a data scientist. Each of
+these topics are commonly asked about in both conceptual & code-based knowledge testing interviews
+for data scientist positions. 
+
+Responses do not need to be extensive. Explain where you feel it is necessary, but 
+simplified / general answers will suffice, unless the question is asking for a specific calculation or definition
+
+##############################################################################################################################
+QUESTIONS
+##############################################################################################################################
+
+1. What is the derivative of 10e^x2?
+> 20eX^2
+
+###
+2. What is the *partial* derivative of X^2Y^3 with respect to X? 
+> 2Y^3
+
+###
+3. What is the variance of the vector: [0,8,3,5,7,3,2,6,8,9,10,15]?
+> 15.4
+
+###
+4. A group of 10 foot surgery patients had a mean weight of 240 pounds. 
+The sample standard deviation was 25 pounds. Find a confidence interval for a sample 
+for the true mean weight of all foot surgery patients. Find a 95% CI.
+>
+
+
+###
+5. Flipping a fair coin 3 times, which has a higher probability of occurring first (or neither)?
+    a. HTT
+    b. HTH
+
+> HHT is more likely to appear first than HTT. 
+The probability of HHT appearing first is 2/3 and so probability of HTT appearing first is 1/3
+
+###
+6. What is a p-value? How do you interpret the value?
+(Hint: the answer should include more than "statistical significance")
+
+> A p-value is a numerical indicator used to determine if, in a statistical experiment, it can be 
+concluded that the result found is not due to chance, or the null hypothesis. The p-value
+does not inherently confirm the alternative hypothesis or our scientific conclusion, while it does
+confirm that the same results would not be found randomly in nature. 
+
+###
+7. What is the formula for Bayes Conditional probability? What does each component represent?
+
+> P(A|B) = P(B|A)*P(A) / P(B)
+P(B|A) = Conditional probability of B, given A ("likelihood")
+P(A) = Independent probability of A ("prior")
+P(B) = Independent probability of B ("marginalization")
+
+###
+8. What is the difference between an independent-sample vs paired-sample t-test? 
+
+> Give an example set up where you'd use each
+Independent sample test is used when comparing 2 different populations, where once receives 
+a particular treatment. A paired test is used when a time-based comparison is being made
+eithr within the same sample, or within a cohort
+
+###
+9. Nathan makes 60% of his free-throw attempts. If he shoots 12 free throws, what is the probability that he makes exactly 10?
+(hint, use binomial distribution - feel free to use a python library, and paste code below if you do)
+
+> 
+
+###
+10. What is bootstrapping? How can bootsrtapping be used in the model development process?
+
+> Resampling *with* replacement - can be used in ML development when trying to determine if 
+a model parameter is the right value. Can re-sample parameter space using bootstrapping technique
+
+###
+11. What are the assumptions of linear regression?
+
+>
+1. Direct relationship between predictors & target
+2. No multicollinearity
+3. Homoscedasticity of residuals
+4. Normal distribution of residuals
+
+###
+12. Considering the development of an image classification model, what is a scenario / application 
+in which you would want to prioritize precision over recal (sensitivity)? What about recall over precision?
+
+> prioritze precision when false negatives are highest priority (disease/cancer identification)
+  prioritize recall when you don't want false negatives (a "model" of death sentence jury)
+
+### IGNORE
+13. Given the same model output as above, answer the following questions:
+    a. What do you notice about the class-balance of actual labels?
+    
+    b. What is the impact of your answer to (a) on the model's ability to successfully predict the given labels?
+
+###
+13. What calculations are required to be made at each split of a decision tree algorithm?
+
+> Purity (Gini index, entropy) & Information gain
+
+###
+14. What parameter(s) is (are) randomized in a Random Forest classifier?
+
+> Split features
+
+###
+15. What is gradient boosting & why is it useful?
+
+> An ensemble model approach with several weak learners, where each consecutive model
+is optimized off of the residuals of the prior
+
+###
+16. In clustering algoriths like Kmeans, how do data points get assigned to clusters?
+
+> There are several start options (Weighted, heuristic, optimized, random), and all data points
+are assigned to initialized foci using distance metrics (manhattan,standard, etc.)
+
+###
+17. What are the steps involved in collaborative filtering? What is the difference betwen user- & item-based collaborative filtering?
+
+> 
+1. Collect ratings from multiple users
+2. Matrix factorization
+3. Calculate similarity across users
+4. Select highest user similarity
+5. Recommend second users highest rates items
+
+User-user: Described above, recommend items that are well rated by users similar to target user
+Item-item: Find target users high rated item, find similar items from other users (well rated)
+and recommend similar item(s)
+
+###
+18. In the neural-network architecture described below (assume all layers to be dense - i.e. fully connected),
+fill in the missing array shapes:
+(Hint, neural networks typically follow: output = X.W + b)
+
+>
+Input layer:
+    - Input shape: 3x1
+Single Hidden layer (2 nodes, tanh activation)
+    - Weights shape: 3x2
+    - Bias_h shape: 3x1
+    - Activation function output shape: 2x1
+Final Output layer (2 nodes, sigmoid activation)
+    - Weights shape: 2x2
+    - Bias_o shape: 2x1
+    - Activation function output shape: 1x1
+
+###
+19. Give one common use case / application for each of the following types of neural network frameworks
+    a. Convolutional Neural Network
+        object identification
+    b. Autoencoder
+        Image compression (dimensionality reduction)
+    c. Long-short Term Memory (LSTM) Network
+        Chat bots, language prediction, translation 
+    d. Generative Adversarial Network (GAN)
+        Image, video synthesis (generation)
+
+###
+20. If a model type that we are using is prone to *very* high bias, and the training/test accuracy are 95% & 90% respectively, 
+what is a reasonable validation (final hold-out) accuracy that we might expect when the final-hold out set is tested? 
+Given an example of a model-type that would exhibit this type of bias-variance behavior
+    
+> Due to the high bias, it would be expected that the model is overfitting to training data & it is likely
+that the model would perform poorly on hold-out data. Standard decision trees are commonly prone to  
+high bias, which is why they are easily out performed by random forests & other ensemble or gradient boosted
+methods for classification. 
+
+###
+20. What are 3 different methods of dimensionality reduction?
+
+> PCA, heuristic (dropping irrelevant features), variable inflaiton factor
+
+###
+21. What is the difference between a relational & a non-relational database?
+
+> Relational databases are structured, typically with a primary key & often foreign keys, set up 
+with rows & columns. Non-relational databases (e.g. Elastic Search, Mongo, etc.) are typically document
+based storage & are unstructured in format. 
+
+###
+22. What is a virtual machine? How do you create/access one?
+
+A virtual machine is a computer that is being hosted on a remote server (cloud). It is spun 
+up on a cloud server & accessed via SSH
+
+###
+23. What is Spark? Why is it considered superior than its predecessor (HDFS/MapReduce)?
+
+> Spark is a modern distributed method for processing (ETL) with big data. With HDFS, results were always
+written to hard disc, which is not optimal, while in Spark, "dataframes" are turned into Resilient 
+Distributed Datasets (RDD) which operate on working memory (more efficient).
+
+###
+24. What is an API? (is this is simple, help explain to someone who might not know what it is)
+    
+> Application Programmer Interface: APIs allow you to interact with an external softaware/database. 
+The API creator provides endpoints that expose data to users in a format that is chosen by the API creator.
+For instance, most (all?) web links are endpoints that retrieve data from databases through servers. 
+
+###
+25. What are advantages of of batch-processing ML predictions in production? What about a
+streaming framework? Are there better hybrid methods?
+
+> Batch processing of model predictions can be used when predictions are not needed in real time 
+(e.g. application that only serves daily weather predictions). If predictions are needed in real time
+(e.g. actual weather apps, financial/stock predictions, etc.), they need to be delivered as close 
+to when requested as possible. This is computationally expensive & requires a much more complex back-end
+to support. In batch processing, predictions are simply stored in a database & queries when required. 
+
