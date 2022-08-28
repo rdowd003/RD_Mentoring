@@ -1,0 +1,101 @@
+DATA SOURCES FOR PROJECT 2
+
+Ultimately, the data source you would like to use for this project
+is up to you. However, below is a list of potential sources 
+you may be interested in utilizing, as well as some recommended model
+types to use for each. Some data sources are downloadable directly, and
+others would require the use of an API. The latter would be an excellent
+way to demonstrate proficiency in skills outside of the standard data
+science repetoire.
+
+
+# Potential Sources
+######################################################################################
+1. Spotify API - Use Spotipy (python library for Spotify API) 
+Also API call script provided; feel free to write your own
+
+Source: https://developer.spotify.com/documentation/web-api/
+
+Example extracting track features
+https://medium.com/@samlupton/spotipy-get-features-from-your-favourite-songs-in-python-6d71f0172df0
+
+Data Contents: Using the Spotify API, you can call for a wide variety
+of data for any song available in the Spotify database (as well as user & playlist data). 
+Within this data is a number of pre-engineered (by Spotify's engineers) data features
+which are described in length here: (link). There is a call limit , however you can 
+create a loop to pull a larger dataset through the API. 
+
+Recommended uses:
+	- Clustering
+	- Classification
+
+
+######################################################################################
+2. Zillow API
+(try with pyzillow as well
+https://pypi.org/project/pyzillow/)
+
+Source: https://www.zillow.com/howto/api/APIOverview.htm?source=post_page
+
+Example using Zillow API for data science
+https://towardsdev.com/estated-api-get-real-estate-property-data-using-python-1613228e5601
+
+Data Contents: The zillow API is a rich source of interesting data related to the real estate
+market. Through the zillow API, you will have access to housing market & geographical data, 
+mortgage data & more. 
+
+Recommended uses:
+	- Prediction
+	- Clustering
+
+
+######################################################################################
+3. UCI - Parkinsons UPDRS dataset
+
+Source: https://archive.ics.uci.edu/ml/machine-learning-databases/parkinsons/telemonitoring/
+
+Data Contents: This dataset is pre-engineered & designed mainly for prediction. The 
+zipfile of data you will download contains Unified Parkinson's Disease Rating Scores
+data for several neurology patients. This is a neurological rating system
+designed to label the severity of symptoms exhibited by patients visiting a
+neruology clinic. There are also a few published academic studies using this
+data which may serve as a guide source. As this is a public dataset with many
+existing uses, please do not copy the work of others. 
+
+Recommended uses:
+	- Clustering
+	- Prediction (regression, time series)
+	- Potential Classification
+
+
+
+######################################################################################
+4. Marketing campaign study
+
+Source: Request files folder. You will be asked not to push the data to your profile
+
+Data contents: This dataset contains several data points related to (anonymized) business 
+accounts belonging to a particular vendor. The target variable is an outcome indicating
+their responsiveness to a marketing campaign run by the vendor. The data includes many 
+features describing the business type, their responses to prior campaigns & more. 
+
+Recommended uses:
+	- Classification
+	- Potential prediction
+	- Potential clustering
+
+
+
+######################################################################################
+5. Choose your own
+If you would like to souce your own dataset for this project, you are 
+more than welcome to. Below are a list of resources where you can
+find some interesting datasets. 
+
+- Free APIs (Wikipedia,reddit,twitter,instagram,weather.gov,etc.)
+https://www.springboard.com/blog/data-science/top-apis-for-data-scientists/
+- UCI Machine Learning Dataset Repository
+https://archive.ics.uci.edu/ml/index.php
+- data.gov (get correct link)
+- Google datasets
+- Google link for common ML datasets
