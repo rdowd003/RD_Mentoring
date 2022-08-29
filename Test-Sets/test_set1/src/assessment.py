@@ -9,7 +9,7 @@ from scipy import stats
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 
-
+# Pandas / NumPy
 def only_positive(arr):
     '''
     INPUT: 2 DIMENSIONAL NUMPY ARRAY
@@ -26,7 +26,25 @@ def only_positive(arr):
     Use numpy methods to do this, full credit will not be awarded for a python
     for loop.
     '''
-    return arr[arr[:,:] > 0]
+    pass
+
+
+
+# Statistics
+def calculate_t_test(sample1, sample2, type_I_error_rate):
+    '''
+    INPUT: NUMPY ARRAY, NUMPY ARRAY
+    OUTPUT: FLOAT, BOOLEAN
+
+    You are asked to evaluate whether the two samples come from a population
+    with the same population mean.  Return a tuple containing the p-value for
+    the pair of samples and True or False depending if the p-value is
+    considered significant at the provided Type I Error Rate (i.e. false
+    positive rate, i.e. alpha).
+    '''
+    x = stats.ttest_ind(sample1,sample2)
+    if x[1] <= type_I_error_rate:
+        return (x[1],True)
 
 
 def calculate_clickthrough_prob(clicks_A, views_A, clicks_B, views_B):
@@ -39,9 +57,7 @@ def calculate_clickthrough_prob(clicks_A, views_A, clicks_B, views_B):
 
     Hint: Use Bayesian A/B Testing (use 'beta' from scipy.stats)
     '''
-    rv1 = stats.beta(1+clicks_A,1+views_A-clicks_A)
-    rv2 = stats.beta(1+clicks_B,1+views_B-clicks_B)
-    return sum(rv1>rv2)
+    pass
 
 
 # Linear Regression
@@ -63,16 +79,11 @@ def linear_regression(X_train, y_train, X_test, y_test):
     should be in this form:
     (12.3, 9.5), 0.567
     '''
-    model = LinearRegression()
-    model.fit(X_train, y_train)
-    test_predicted = model.predict(X_test)
-    score = r2_score(y_test,test_predicted)
-
-    return ((model.coef_[1]),score)
+    pass
 
 
 
-    # For each of these, your python function should return a string that is the
+# For each of these, your python function should return a string that is the
 # SQL statement which answers the question.  
 #
 # For example:
@@ -106,17 +117,20 @@ def windsor_markets():
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
-    return '''SELECT count(distinct marketname) FROM farmersmarkets WHERE website like '%thewindsorfarmersmarket%';'''
+    return '''your query here '''
 
 
-def decreased_pop_markets():
+def very_specific_market():
     '''
-    Return a SQL statement which gives the number of unique markets owned by the "Windsor"
-    family (Hint: The Windsor name is in some of the columns)
+    Return a SQL statement which returns the specified county, zip & marketname for the
+    farmers market that meets the following requirements: 
+        - Within a state who's population from 2000 to 2010 has decreased
+        - From the county with the 3rd highest total number of unique markets (by name)
+        - 5th market ordered by name alphabetically in reverse (Z-->A)
     '''
     # Your code should look like this:
     # return '''SELECT * FROM universities;'''
 
     # NEED TO COMPLETE
-    return '''SELECT zip,COUNT(DISTINCT marketname) FROM farmersmarkets JOIN statepopulations USING(state) WHERE pop2010 < pop2000);
-49464|318;'''
+    return '''your query here '''
+

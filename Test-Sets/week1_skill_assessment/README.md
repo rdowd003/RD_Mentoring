@@ -8,14 +8,12 @@ This assessment has **three parts**: a coding part (`assessment.py`) and a math/
 ## Tl;dr
 1. Complete the code challenge
     - Fill in functions with your responses
-    - run `make test` within the week1_skills_assessment directory
-    - go back adn fix incorrect functions
+    - Run pytest in the test-set1 directory to check your answers
+    - Go back adn fix incorrect functions
 
 2. Complete the concepts.txt file
 
-3. Complete the case study (jupyter notebook)
-
-4. Once all three are done push your changes to the coreyholt
+4. Once both are done push your changes to the coreyholt branch
 
 5. We will review together
 
@@ -82,7 +80,7 @@ Databse tables:
 
 
 #### If you want to use sqlite3 (easiest)
-Navigate to the `week1_skill_assessment/data` directory in terminal.  
+Navigate to the `test_set1/data` directory in terminal.  
 At the terminal, type:
 ```
 $ sqlite3 markets.sqlite
@@ -91,7 +89,7 @@ Now you can try your queries (using standard sql).
 
 
 #### If you want to use postgreSQL
-Navigate to the `week1_skill_assessment/data` directory in terminal.
+Navigate to the `test_set1/data` directory in terminal.
 The directions depend on your operating system (MacOs or Linux). 
 
 ##### Mac directions
@@ -157,12 +155,7 @@ The repository has the following folder structure:
     │   ├── __init__.py
     │   └── test_assessment.py
     └── concepts
-    │   └── concepts.txt
-    └── case_study
-        └── case_study_data_challenge.ipynb
-        └── data/
-            └── user_account_data.csv
-            └── user_exercise_logs_data.csv
+        └── concepts.txt
 
 There are 40 problems & a short data challenge (case study) total in the assessment.  All the problems should be completed or attempted, if possible.   
 - 15 coding questions in `src/assessment.py`: 
