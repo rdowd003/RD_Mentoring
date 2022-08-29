@@ -42,9 +42,7 @@ def calculate_t_test(sample1, sample2, type_I_error_rate):
     considered significant at the provided Type I Error Rate (i.e. false
     positive rate, i.e. alpha).
     '''
-    x = stats.ttest_ind(sample1,sample2)
-    if x[1] <= type_I_error_rate:
-        return (x[1],True)
+    pass
 
 
 def calculate_clickthrough_prob(clicks_A, views_A, clicks_B, views_B):
