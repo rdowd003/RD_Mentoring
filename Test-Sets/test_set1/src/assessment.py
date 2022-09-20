@@ -26,7 +26,7 @@ def only_positive(arr):
     Use numpy methods to do this, full credit will not be awarded for a python
     for loop.
     '''
-    pass
+    return arr[np.all(arr > 0, axis=1), :]
 
 
 
@@ -42,7 +42,7 @@ def calculate_t_test(sample1, sample2, type_I_error_rate):
     considered significant at the provided Type I Error Rate (i.e. false
     positive rate, i.e. alpha).
     '''
-    pass
+    return type_I_error_rate > stats.ttest_ind(a=sample1, b=sample2)
 
 
 def calculate_clickthrough_prob(clicks_A, views_A, clicks_B, views_B):
@@ -77,7 +77,9 @@ def linear_regression(X_train, y_train, X_test, y_test):
     should be in this form:
     (12.3, 9.5), 0.567
     '''
-    pass
+    reg = LinearRegression().fit(X_train, y_train)
+
+    return (reg.coef_, reg.score(X_test, y_test))
 
 
 

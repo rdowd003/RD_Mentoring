@@ -15,34 +15,42 @@ QUESTIONS
 
 ###
 1. What is the difference between a mutable and immutable data type in python? Give an example of each
-
+immutable: can't edit it (tuples)
+mutable: variables, lists, dictionaries, etc
 
 ###
 2. Describe the difference between under- & overfitting models
-
+underfitting: The model doesn't match the data very well. It doesn't predict well on train or test data. Could occur because of too little data or inccorect model 
+overfitting: The model predicts well for the training data but not test data--aka it doesn't generalize well. The model probably wasn't cross validated during training
 
 ###
 3. What types of scenarios are the following distributions typically applied in?
-Binomial:
+Binomial: distribution of 2 potential outcomes: coin flip, win/lose
 Geometric:
 Poisson:
-Exponential:
+Exponential: distirbution for time between occurences. 
 
 
 ###
 4. How are models scores? What are some metrics that can be used to determine the success of a model? 
+classification: accuracy, f1 score, ROC, AUC
+regression: MAE, MSE, R squared, adjusted R2
 
 ###
 5. What is a method to handle an imbalanced dataset when doing classification?
-
+resampling, augment/generate data, use models that penalize misclassification of minority class
 
 ###
 6. What is regulariation? Describe the difference between L1 & L2 regularization
-
+Regularization is used to reduce overfitting in ML models by reducing coefficients
+L1 (lasso): "penalizes sum of absolute values of weights". Robust to outliers. 
+Can reduce weights to zero (built-in feature selection)
+L2 (ridge): "penalizes sum of squares of weights
 
 ###
 7. What is an ROC curve? What are the axes? How do you use an ROC curve to determine model success?
-
+Graph representing the classification accuracy of a model
+Plots true positive rate (y-axis) vs false positive rate (x-axis)
 
 ###
 8. What are some common methods for processing text data prior to conducting NLP?
@@ -50,7 +58,7 @@ Exponential:
 
 ###
 9. What is a term-frequency - inverse-document-frequency (tf-idf) matrix (related to NLP)?
-
+Matrix that shows the importance of a word in a corpus
 
 ###
 10. How does one search for data in a non-relational database (i.e., no rows or columns)?
@@ -58,3 +66,5 @@ Exponential:
 
 ###
 11. What is Docker? Why is it useful to data scientists? (hint, consider productionizing models)
+You can capture your local environment using a docker container to ensure your model deploys with 
+all of the necessary dependencies. 
