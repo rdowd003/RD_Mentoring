@@ -1,2 +1,5 @@
 .DS_Store
 .vscode/
+.ipynb_checkpoints/
+.pytest_cache/
+Test-Sets/test_set1/solutions/*
