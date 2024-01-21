@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<IAPDIndividualReport GenOn="2021-04-16">
+<Indvls>
+<Indvl>
+<Info lastNm="ABBOTT" firstNm="ROBERT" midNm="CODY" sufNm="JR" indvlPK="170" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/170"/>
+<OthrNms>
+<OthrNm lastNm="ABBOTT" firstNm="CODY" sufNm="JR"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="MUTUAL OF OMAHA INVESTOR SERVICES, INC." orgPK="611" str1="3300 MUTUAL OF OMAHA PLAZA" city="OMAHA" state="NE" cntry="United States" postlCd="68175-1020">
+<CrntRgstns>
+<CrntRgstn regAuth="IL" regCat="RA" st="APPROVED" stDt="2017-03-30"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="6400 SHAFER CT" str2="SUITE 175" city="ROSEMONT" state="IL" cntry="United States" postlCd="60018"/>
+<BrnchOfLoc city="Seymour" state="IL" cntry="United States"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1991-12-19"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns/>
+<EmpHss>
+<EmpHs fromDt="03/1968" orgNm="MUTUAL/UNITED OF OMAHA INSURANCE COMPANY" city="OMAHA" state="NE"/>
+<EmpHs fromDt="09/1972" orgNm="MUTUAL OF OMAHA INVESTOR SERVICES, INC." city="DECATUR" state="IL"/>
+<EmpHs fromDt="10/1972" orgNm="DANSIG INSURANCE AGENCY" city="DECATUR" state="IL"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="Insurance Agent; Start Date: 03/1968; Non-Investment Related; Insurance Lines: Health, Life, Group, and Annuity; Approximately 5-15 hours per week during trading hours.   Partial Owner; Dansig Corporation; Insurance DBA; Start Date: 10/1972.  Ending date previously submitted as 2010.      Cody Abbott Financial Services; DBA Name; Start Date: 1975.    Owner; Rental Property; Start Date: 10/2001; Non-Investment Related; Yuma, AZ."/>
+</OthrBuss>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ABBOTT" firstNm="WILLIAM" midNm="ELDRIDGE" indvlPK="183" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/183"/>
+<OthrNms>
+<OthrNm lastNm="ABBOTT" firstNm="WILLIAM" midNm="E"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="UBS FINANCIAL SERVICES INC." orgPK="8174" str1="1200 HARBOR BOULEVARD" city="WEEHAWKEN" state="NJ" cntry="United States" postlCd="07086">
+<CrntRgstns>
+<CrntRgstn regAuth="GA" regCat="RA" st="APPROVED" stDt="2003-03-04"/>
+<CrntRgstn regAuth="TX" regCat="RA" st="APPROVED_RES" stDt="2004-03-23"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="3560 Lenox Road NE" str2="28th floor" city="ATLANTA" state="GA" cntry="United States" postlCd="30326"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1980-05-15"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns/>
+<EmpHss>
+<EmpHs fromDt="08/2000" orgNm="UBS FINANCIAL SERVICES INC." city="ATLANTA" state="GA"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="NYSE ARBITRATION HEARING BOARD, NEW YORK, N.Y., YES INVESTMENT RELATED. BUSINESS - ARBITRATOR. TITLE - ARBITRATOR.START DATE - 01/01/1990. DUTIES - I HAVE BEEN CALLED IN AS AN ARBITRATOR IN THE PAST. HAVE NOT SERVED FOR 5 TO 10 YEARS, BUT I UNDERSTAND I STILL COULD BE IN THE FUTURE."/>
+</OthrBuss>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="Abelson" firstNm="Hirschel" midNm="Bressler" indvlPK="290" actvAGReg="N" link="https://adviserinfo.sec.gov/individual/summary/290"/>
+<OthrNms>
+<OthrNm lastNm="ABELSON" firstNm="HIRSCHELL" midNm="B"/>
+<OthrNm lastNm="ABELSON" firstNm="HIRSCHEL" midNm="B"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="HIGHTOWER ADVISORS, LLC" orgPK="145323" str1="200 W. MADISON ST." str2="SUITE 2500" city="CHICAGO" state="IL" cntry="United States" postlCd="60606">
+<CrntRgstns>
+<CrntRgstn regAuth="NY" regCat="RA" st="APPROVED" stDt="2021-03-15"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="200 W. MADISON ST." str2="SUITE 2500" city="CHICAGO" state="IL" cntry="United States" postlCd="60606"/>
+<BrnchOfLoc str1="505 5th Ave. 14th Floor" city="New York" state="NY" cntry="United States" postlCd="10017"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms/>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="STRALEM &amp; COMPANY, INCORPORATED" orgPK="3524" regBeginDt="2003-06-23" regEndDt="2005-12-16">
+<BrnchOfLocs>
+<BrnchOfLoc city="NEW YORK" state="NY"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="09/2020" orgNm="HighTower Advisors LLC" city="Chicago" state="IL"/>
+<EmpHs fromDt="01/1967" toDt="09/2020" orgNm="STRALEM &amp; COMPANY, INCORPORATED" city="NEW YORK" state="NY"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ABNER" firstNm="HOWARD" midNm="JEROME" indvlPK="353" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/353"/>
+<OthrNms>
+<OthrNm lastNm="ABNER" firstNm="HOWARD" midNm="J"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="ABNER HERRMAN &amp; BROCK, LLC" orgPK="8517" str1="HARBORSIDE 5  185 HUDSON STREET" str2="SUITE 1640" city="JERSEY CITY" state="NJ" cntry="United States" postlCd="07311">
+<CrntRgstns>
+<CrntRgstn regAuth="CT" regCat="RA" st="APPROVED" stDt="1993-02-11"/>
+<CrntRgstn regAuth="MD" regCat="RA" st="APPROVED" stDt="2004-01-23"/>
+<CrntRgstn regAuth="NJ" regCat="RA" st="APPROVED" stDt="2004-09-09"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="HARBORSIDE 5 185 HUDSON STREET" str2="SUITE 1640" city="JERSEY CITY" state="NJ" cntry="UNITED STATES" postlCd="07311"/>
+<BrnchOfLoc str1="HARBORSIDE 5 185 HUDSON STREET" str2="SUITE 1640" city="JERSEY CITY" state="NJ" cntry="United States" postlCd="07311"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1992-03-18"/>
+</Exms>
+<Dsgntns>
+<Dsgntn dsgntnNm="Chartered Financial Analyst"/>
+</Dsgntns>
+<PrevRgstns/>
+<EmpHss>
+<EmpHs fromDt="01/1981" orgNm="ABNER, HERRMAN &amp; BROCK, INC." city="NEW YORK" state="NY"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ABRAMS" firstNm="DAVIS" midNm="HARRY" indvlPK="495" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/495"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="MORGAN STANLEY" orgPK="149777" str1="2000 WESTCHESTER AVENUE" city="PURCHASE" state="NY" cntry="United States" postlCd="10577-2530">
+<CrntRgstns>
+<CrntRgstn regAuth="GA" regCat="RA" st="APPROVED" stDt="2009-06-01"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="3280 PEACHTREE ROAD, NE" str2="SUITE 1900" city="ATLANTA" state="GA" cntry="United States" postlCd="30305"/>
+<BrnchOfLoc city="ATLANTA" state="GA" cntry="United States"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1983-08-31"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="2004-04-02"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="CITIGROUP GLOBAL MARKETS INC." orgPK="7059" regBeginDt="2004-04-05" regEndDt="2009-06-01">
+<BrnchOfLocs>
+<BrnchOfLoc city="ATLANTA" state="GA"/>
+<BrnchOfLoc city="ATLANTA" state="GA"/>
+<BrnchOfLoc city="ATLANTA" state="GA"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="07/1993" orgNm="CITIGROUP GLOBAL MARKETS INC." city="ATLANTA" state="GA"/>
+<EmpHs fromDt="06/2009" orgNm="MORGAN STANLEY SMITH BARNEY" city="ATLANTA" state="GA"/>
+<EmpHs fromDt="01/2015" orgNm="MORGAN STANLEY PRIVATE BANK, NATIONAL ASSOCIATION" city="NEW YORK" state="NY"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ABRAMS" firstNm="LEONARD" midNm="HAROLD" indvlPK="524" actvAGReg="N" link="https://adviserinfo.sec.gov/individual/summary/524"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="PLANTECH INC." orgPK="120923" str1="2708 CLEVELAND RD" str2="SUITE 200" city="WOOSTER" state="OH" cntry="United States" postlCd="44691">
+<CrntRgstns>
+<CrntRgstn regAuth="OH" regCat="RA" st="APPROVED" stDt="2003-05-15"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="2657 CLEVELAND ROAD" city="WOOSTER" state="OH" cntry="United States" postlCd="44691"/>
+<BrnchOfLoc str1="2657 CLEVELAND RD." city="WOOSTER" state="OH" cntry="United States" postlCd="44691"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1985-03-14"/>
+</Exms>
+<Dsgntns>
+<Dsgntn dsgntnNm="Chartered Financial Consultant"/>
+</Dsgntns>
+<PrevRgstns>
+<PrevRgstn orgNm="LINCOLN FINANCIAL SECURITIES CORPORATION" orgPK="3870" regBeginDt="2003-06-17" regEndDt="2003-10-14">
+<BrnchOfLocs>
+<BrnchOfLoc city="WOOSTER" state="OH"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="12/1969" orgNm="WHITAKER-MYERS INSURANCE" city="WOOSTER" state="OH"/>
+<EmpHs fromDt="12/1973" orgNm="JEFFERSON PILOT SECURITIES CORPORATION" city="CONCORD" state="NH"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ACEBAL" firstNm="JACK" midNm="CELESTINO" sufNm="JR" indvlPK="663" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/663"/>
+<OthrNms>
+<OthrNm lastNm="CELESTINO" firstNm="ACEBAL" midNm="JACK" sufNm="JR"/>
+<OthrNm lastNm="ACEBAL" firstNm="JACK" midNm="CELESTINE" sufNm="JR"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="WELLS FARGO CLEARING SERVICES, LLC" orgPK="19616" str1="ONE NORTH JEFFERSON AVENUE" str2="MAIL CODE: H0004-050" city="ST. LOUIS" state="MO" cntry="United States" postlCd="63103-2205">
+<CrntRgstns>
+<CrntRgstn regAuth="FL" regCat="RA" st="APPROVED" stDt="2003-07-01"/>
+<CrntRgstn regAuth="TX" regCat="RA" st="APPROVED_RES" stDt="2003-07-01"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="1540 CORNERSTONE BLVD" str2="STES 110 &amp; 210" city="DAYTONA BEACH" state="FL" cntry="United States" postlCd="32117"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1981-12-17"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="1992-06-25"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="PRUDENTIAL EQUITY GROUP, LLC" orgPK="7471" regBeginDt="1996-10-23" regEndDt="2003-07-01">
+<BrnchOfLocs>
+<BrnchOfLoc city="DAYTONA BEACH" state="FL"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="05/2009" toDt="11/2016" orgNm="WELLS FARGO ADVISORS LLC" city="DAYTONA BEACH" state="FL"/>
+<EmpHs fromDt="11/2016" orgNm="WELLS FARGO CLEARING SERVICES, LLC" city="DAYTONA BEACH" state="FL"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ACUFF, JR." firstNm="ALFRED" midNm="MARSHALL" indvlPK="857" actvAGReg="N" link="https://adviserinfo.sec.gov/individual/summary/857"/>
+<OthrNms>
+<OthrNm lastNm="ACUFF" firstNm="ALFRED" midNm="MARSHALL" sufNm="JR"/>
+<OthrNm lastNm="ACUFF" firstNm="ALFRED" midNm="MARSHALL"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="SILVERCREST ASSET MANAGEMENT GROUP LLC" orgPK="118333" str1="1330 AVENUE OF THE AMERICAS" str2="38TH FLOOR" city="NEW YORK" state="NY" cntry="United States" postlCd="10019-5400">
+<CrntRgstns>
+<CrntRgstn regAuth="VA" regCat="RA" st="APPROVED" stDt="2014-03-26"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="9030 STONY POINT PARKWAY" city="RICHMOND" state="VA" cntry="United States" postlCd="23235"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms/>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="CARY STREET PARTNERS" orgPK="128545" regBeginDt="2007-09-04" regEndDt="2014-03-05">
+<BrnchOfLocs>
+<BrnchOfLoc city="RICHMOND" state="VA"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="10/2001" orgNm="AMA INVESTMENT COUNSEL, LLC" city="RICHMOND" state="VA"/>
+<EmpHs fromDt="03/2006" toDt="03/2014" orgNm="CARY STREET PARTNERS INVESTMENT ADVISORY LLC" city="RICHMOND" state="VA"/>
+<EmpHs fromDt="03/2014" orgNm="SILVERCREST ASSET MANAGEMENT GROUP LLC" city="NEW YORK" state="NY"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="VIRGINIA RETIREMENT SYSTEM, GOVERNMENTAL, INVESTMENT RELATED TRUSTEE. START DATE 05/2006; 3 HOURS PER MONTH. THE VIRGINIA RETIREMENT SYSTEM ADMINISTERS A DEFINED BENEFIT PLAN, A GROUP LIFE INSURANCE PLAN, A DEFERRED COMPENSATION PLAN, AND A CASH MATCH PLAN FOR VIRGINIA&apos;S PUBLIC SECTOR EMPLOYEES, AS WELL AS AN OPTIONAL RETIREMENT PLAN FOR SELECTED EMPLOYEES AND THE VIRGINIA SICKNESS AND DISABILITY PROGRAM FOR STATE EMPLOYEES.AMA INVESTMENT COUNSEL, LLC INVESTMENT RELATED, MANAGER; START DATE 10/2001; 2 HOURS PER MONTH. AMA INVESTMENT COUNSEL, LLC IS A PERSONAL INVESTMENT CONSULTING FIRM THAT PROVIDES THIRD PARTY INVESTMENT ADVICE."/>
+</OthrBuss>
+<DRPs>
+<DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="Y" hasTermination="N"/>
+</DRPs>
+</Indvl>
+<Indvl>
+<Info lastNm="ADAMS" firstNm="CRAIG" midNm="MAXWELL" indvlPK="969" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/969"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="CONFIDENTIAL MANAGEMENT ADVISORS, INC." orgPK="125936" str1="1700 WEST BIG BEAVER" str2="SUITE 320" city="TROY" state="MI" cntry="United States" postlCd="48084">
+<CrntRgstns>
+<CrntRgstn regAuth="MI" regCat="RA" st="APPROVED" stDt="2010-09-23"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="1700 WEST BIG BEAVER" str2="SUITE 320" city="TROY" state="MI" cntry="United States" postlCd="48084"/>
+</BrnchOfLocs>
+</CrntEmp>
+<CrntEmp orgNm="FICAST CORPORATION" orgPK="159265" str1="1700 W. BIG BEAVER" str2="SUITE 320" city="TROY" state="MI" cntry="United States" postlCd="48084">
+<CrntRgstns>
+<CrntRgstn regAuth="MI" regCat="RA" st="APPROVED" stDt="2011-10-21"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="1700 W. BIG BEAVER" str2="SUITE 320" city="TROY" state="MI" cntry="United States" postlCd="48084"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1982-02-26"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="2008-08-11"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="CONFIDENTIAL MANAGEMENT ADVISORS, INC." orgPK="125936" regBeginDt="2008-09-15" regEndDt="2009-11-09">
+<BrnchOfLocs>
+<BrnchOfLoc city="TROY" state="MI"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="05/1991" orgNm="CONFIDENTIAL MANAGEMENT FINANCIAL SERVICES, INC." city="BIRMINGHAM" state="MI"/>
+<EmpHs fromDt="05/1999" orgNm="FICAST CORPORATION" city="TROY" state="MI"/>
+<EmpHs fromDt="05/1991" orgNm="CONFIDENTIAL MANAGEMENT ADVISORS,INC." city="TROY" state="MI"/>
+<EmpHs fromDt="05/1991" orgNm="CONFIDENTIAL MANAGEMENT SERVICES, INC" city="TROY" state="MI"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ADAMS" firstNm="PAUL" midNm="DUWAYNE" indvlPK="1185" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/1185"/>
+<OthrNms>
+<OthrNm lastNm="ADAMS" firstNm="PAUL" midNm="DUWANE"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="LPL FINANCIAL LLC" orgPK="6413" str1="1055 LPL WAY" city="FORT MILL" state="SC" cntry="United States" postlCd="29715">
+<CrntRgstns>
+<CrntRgstn regAuth="CO" regCat="RA" st="APPROVED" stDt="2017-11-29"/>
+<CrntRgstn regAuth="NE" regCat="RA" st="APPROVED" stDt="2017-11-29"/>
+<CrntRgstn regAuth="TX" regCat="RA" st="APPROVED_RES" stDt="2021-04-13"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc city="DENVER" state="CO" cntry="United States"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1980-09-08"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="1998-12-17"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="SUNAMERICA SECURITIES, INC." orgPK="20068" regBeginDt="2000-12-15" regEndDt="2005-10-31">
+<BrnchOfLocs>
+<BrnchOfLoc city="LITTLETON" state="CO"/>
+</BrnchOfLocs>
+</PrevRgstn>
+<PrevRgstn orgNm="NATIONAL PLANNING CORPORATION" orgPK="29604" regBeginDt="2010-10-06" regEndDt="2017-11-29">
+<BrnchOfLocs>
+<BrnchOfLoc city="GRAND ISLAND" state="NE"/>
+<BrnchOfLoc city="LOS ANGELES" state="CA"/>
+<BrnchOfLoc city="DENVER" state="CO"/>
+<BrnchOfLoc city="GALLUP" state="NM"/>
+</BrnchOfLocs>
+</PrevRgstn>
+<PrevRgstn orgNm="SAGEPOINT FINANCIAL, INC." orgPK="133763" regBeginDt="2005-10-31" regEndDt="2008-11-17">
+<BrnchOfLocs>
+<BrnchOfLoc city="LITTLETON" state="CO"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="11/2008" toDt="11/2017" orgNm="NATIONAL PLANNING CORPORATION" city="LITTLETON" state="CO"/>
+<EmpHs fromDt="11/2017" orgNm="LPL FINANCIAL LLC" city="DENVER" state="CO"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ADAMS" firstNm="TERRANCE" midNm="L" indvlPK="1275" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/1275"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="SAGEPOINT FINANCIAL, INC." orgPK="133763" str1="20 E. THOMAS ROAD" str2="SUITE 2000" city="PHOENIX" state="AZ" cntry="United States" postlCd="85012">
+<CrntRgstns>
+<CrntRgstn regAuth="NC" regCat="RA" st="APPROVED" stDt="2010-12-06"/>
+<CrntRgstn regAuth="OH" regCat="RA" st="APPROVED" stDt="2008-10-31"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc city="MASSILLON" state="OH" cntry="United States"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="1999-12-31"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="AMERICAN GENERAL SECURITIES INCORPORATED" orgPK="13626" regBeginDt="2001-07-25" regEndDt="2008-10-31">
+<BrnchOfLocs>
+<BrnchOfLoc city="HOUSTON" state="TX"/>
+<BrnchOfLoc city="CANTON" state="OH"/>
+<BrnchOfLoc city="CANTON" state="OH"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="01/2009" orgNm="SAGEPOINT FINANCIAL,INC" city="CANTON" state="OH"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="1. INSURANCE;ADAMS ADVISORY GROUP;NO;1666 WHIPPLE AVE NW,CANTON,OHIO 44708;OWNER;06/1994;200;20,SALE OF LIFE INSURANCE. INVESTMENT ADVISORY SERVICES;CORP RIA;YES;SAGEPOINT FINANCIAL, INC.;1666 WHIPPLE AVE NW,CANTON,OHIO 44708;OWNER;06/1994;180;180;SALE OF INVESTMENT PRODUCTS."/>
+</OthrBuss>
+<DRPs>
+<DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="Y" hasTermination="N"/>
+</DRPs>
+</Indvl>
+<Indvl>
+<Info lastNm="ADCOCK" firstNm="DONALD" midNm="WOFFORD" indvlPK="1382" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/1382"/>
+<OthrNms>
+<OthrNm lastNm="ADCOCK" firstNm="DON"/>
+</OthrNms>
+<CrntEmps>
+<CrntEmp orgNm="SAGEPOINT FINANCIAL, INC." orgPK="133763" str1="20 E. THOMAS ROAD" str2="SUITE 2000" city="PHOENIX" state="AZ" cntry="United States" postlCd="85012">
+<CrntRgstns>
+<CrntRgstn regAuth="GA" regCat="RA" st="APPROVED" stDt="2008-10-31"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="402 WEST HAWTHORNE STREET" city="DALTON" state="GA" cntry="United States" postlCd="30720"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1989-02-13"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="1999-07-28"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="AMERICAN GENERAL SECURITIES INCORPORATED" orgPK="13626" regBeginDt="2003-04-21" regEndDt="2008-10-31">
+<BrnchOfLocs>
+<BrnchOfLoc city="DALTON" state="GA"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="10/2002" orgNm="AIG AMERICAN GENERAL LIFE COMPANY" city="DALTON" state="GA"/>
+<EmpHs fromDt="01/2009" orgNm="SAGEPOINT FINANCIAL, INC" city="CHATTANOOGA" state="TN"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="1) J. SMITH LANIER., A MARSH &amp; MCLENNAN AGENCY LLC COMPANY POSITION: Vice President NATURE: On January 1, 2017, Donald Wofford Adcock sold the group employee benefits business of Adcock Financial Group, Inc. (100% owned by Donald Wofford Adcock) to J. Smith Lanier and Company. J. Smith Lanier and Company was subsequently purchased byMarsh and McLennan Agency, LLC (MMA) effective February 2, 2017. I am now a full-time, W-2 group employee benefits producer for Marsh and McLennan Agency. Adcock Financial Group, Inc. was not purchased and the individual life insurance, individual health insurance and the equities business through Sage Point Financial was not affected. INVESTMENT RELATED: No NUMBER OF HOURS: 173 SECURITIES TRADING HOURS: 121 START DATE: 01/01/2017; ADDRESS: 402 W. Hawthorne St., Dalton GA 30720, United States; DESCRIPTION: I am a W-2 group benefits consultant for MMA  2) ADCOCK FINANCIAL GROUP, INC. POSITION: Owner - NATURE: Corporation - INVESTMENT RELATED: No NUMBER OF HOURS: 200 SECURITIES TRADING HOURS: 8 START DATE: 01/01/1969 ADDRESS: 402 West Hawthorne Street Dalton, GA 30720, Dalton GA 30720, United States DESCRIPTION: sell life and health insurance"/>
+</OthrBuss>
+<DRPs/>
+</Indvl>
+<Indvl>
+<Info lastNm="ADLER" firstNm="VICTOR" midNm="IRVING" indvlPK="1654" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/1654"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="JANNEY MONTGOMERY SCOTT LLC" orgPK="463" str1="1717 ARCH STREET" city="PHILADELPHIA" state="PA" cntry="United States" postlCd="19103">
+<CrntRgstns>
+<CrntRgstn regAuth="CT" regCat="RA" st="APPROVED" stDt="2009-02-13"/>
+<CrntRgstn regAuth="TX" regCat="RA" st="APPROVED_RES" stDt="2015-12-09"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="180 GLASTONBURY BLVD" str2="SUITE 302" city="GLASTONBURY" state="CT" cntry="United States" postlCd="06033"/>
+<BrnchOfLoc str1="800 POST ROAD" str2="2ND FLOOR" city="DARIEN" state="CT" cntry="United States" postlCd="06820"/>
+<BrnchOfLoc str1="60 Willow Street" str2="Suite 101" city="Mystic" state="CT" cntry="United States" postlCd="06355"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1984-02-01"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="ADVEST, INC." orgPK="10" regBeginDt="1991-05-07" regEndDt="2006-03-08">
+<BrnchOfLocs>
+<BrnchOfLoc city="MIDDLETOWN" state="CT"/>
+</BrnchOfLocs>
+</PrevRgstn>
+<PrevRgstn orgNm="MERRILL LYNCH, PIERCE, FENNER &amp; SMITH INCORPORATED" orgPK="7691" regBeginDt="2006-03-08" regEndDt="2009-02-18">
+<BrnchOfLocs>
+<BrnchOfLoc city="MIDDLETOWN" state="CT"/>
+<BrnchOfLoc city="NEW YORK" state="NY"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="02/2009" orgNm="JANNEY MONTGOMERY SCOTT LLC" city="GLASTONBURY" state="CT"/>
+</EmpHss>
+<OthrBuss/>
+<DRPs>
+<DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="Y" hasTermination="N"/>
+</DRPs>
+</Indvl>
+<Indvl>
+<Info lastNm="AGRON" firstNm="FRANK" midNm="LAWRENCE" indvlPK="1842" actvAGReg="Y" link="https://adviserinfo.sec.gov/individual/summary/1842"/>
+<OthrNms/>
+<CrntEmps>
+<CrntEmp orgNm="WELLS FARGO CLEARING SERVICES, LLC" orgPK="19616" str1="ONE NORTH JEFFERSON AVENUE" str2="MAIL CODE: H0004-050" city="ST. LOUIS" state="MO" cntry="United States" postlCd="63103-2205">
+<CrntRgstns>
+<CrntRgstn regAuth="KS" regCat="RA" st="APPROVED" stDt="2010-08-02"/>
+<CrntRgstn regAuth="TX" regCat="RA" st="APPROVED_RES" stDt="2003-07-01"/>
+</CrntRgstns>
+<BrnchOfLocs>
+<BrnchOfLoc str1="7400 W 130TH ST STES 200 &amp; 400" city="OVERLAND PARK" state="KS" cntry="United States" postlCd="66213"/>
+</BrnchOfLocs>
+</CrntEmp>
+</CrntEmps>
+<Exms>
+<Exm exmCd="S63" exmNm="Uniform Securities Agent State Law Examination" exmDt="1980-06-14"/>
+<Exm exmCd="S65" exmNm="Uniform Investment Adviser Law Examination" exmDt="1995-06-02"/>
+</Exms>
+<Dsgntns/>
+<PrevRgstns>
+<PrevRgstn orgNm="PRUDENTIAL EQUITY GROUP, LLC" orgPK="7471" regBeginDt="1990-02-20" regEndDt="2003-07-01">
+<BrnchOfLocs>
+<BrnchOfLoc city="KANSAS CITY" state="MO"/>
+</BrnchOfLocs>
+</PrevRgstn>
+</PrevRgstns>
+<EmpHss>
+<EmpHs fromDt="05/2009" toDt="11/2016" orgNm="WELLS FARGO ADVISORS LLC" city="OVERLAND PARK" state="KS"/>
+<EmpHs fromDt="11/2016" orgNm="WELLS FARGO CLEARING SERVICES, LLC" city="OVERLAND PARK" state="KS"/>
+</EmpHss>
+<OthrBuss>
+<OthrBus desc="TRUSTEE FOR UNCLE, INV RELATED, KANSAS CITY, MO, START: 8/2014, 1 HOUR PER MONTH/0 DURING TRADING."/>
+</OthrBuss>
+<DRPs>
+<DRP hasRegAction="N" hasCriminal="N" hasBankrupt="N" hasCivilJudc="N" hasBond="N" hasJudgment="N" hasInvstgn="N" hasCustComp="N" hasTermination="Y"/>
+</DRPs>
+</Indvl>
+</Indvls>
+</IAPDIndividualReport>
